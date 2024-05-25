@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<!-- Add the Convoystruct to all Biomes as valid caravan animals -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef/allowedPackAnimals</xpath>
+		<value>
+			<li>ABF_Thing_Synstruct_Convoystruct</li>
+		</value>
+	</Operation>
+</Patch>

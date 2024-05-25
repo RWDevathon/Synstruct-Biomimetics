@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Player-controlled biomimetics use standard Synstruct recipes -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/RecipeDef[@Name="ABF_SurgerySynstructBase"]/recipeUsers</xpath>
+        <value>
+            <li>ABF_Thing_Synstruct_Chemstruct</li>
+            <li>ABF_Thing_Synstruct_Steelstruct</li>
+            <li>ABF_Thing_Synstruct_Nutristruct</li>
+            <li>ABF_Thing_Synstruct_Convoystruct</li>
+            <li>ABF_Thing_Synstruct_Guardstruct</li>
+        </value>
+    </Operation>
+
+</Patch>

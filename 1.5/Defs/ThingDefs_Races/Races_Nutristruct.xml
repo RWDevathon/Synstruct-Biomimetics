@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="ABF_SynstructAnimalThingBase">
+        <defName>ABF_Thing_Synstruct_Nutristruct</defName>
+        <label>nutristruct</label>
+        <description>A lumbering synstruct drone designed to maximize nutrition from organic matter for human consumption. Unlike other mechanical drones, this unit is quite rare amongst android societies given its intended purpose. With an almost disturbingly long shelf-life and extremely high nutritive content, acquisition of units like this have led to population booms on many worlds - and curiously enough by extension, many wars.</description>
+        <statBases>
+            <MoveSpeed>2.00</MoveSpeed>
+            <MarketValue>600</MarketValue>
+            <ABF_ChargingSpeed>0</ABF_ChargingSpeed>
+        </statBases>
+        <comps>
+            <li Class="CompProperties_Milkable">
+                <milkDef>ABF_Thing_Synstruct_NutrientSolution</milkDef>
+                <milkIntervalDays>1</milkIntervalDays>
+                <milkAmount>42</milkAmount>
+                <milkFemaleOnly>false</milkFemaleOnly>
+            </li>
+        </comps>
+        <tools>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>1.65</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+            </li>
+        </tools>
+        <race>
+            <body>ABF_Body_Synstruct_QuadrupedalBiomimetic</body>
+            <packAnimal>true</packAnimal>
+            <baseBodySize>2.4</baseBodySize>
+            <baseHealthScale>1</baseHealthScale>
+            <baseHungerRate>0.535</baseHungerRate> <!-- Cows have a hunger rate of 0.535, copy that -->
+            <nameOnTameChance>1</nameOnTameChance>
+			<foodType>VegetableOrFruit, Meat, Corpse, Seed, Plant, Fungus</foodType>
+            <lifeStageAges>
+                <li>
+                    <def>ABF_ArtificialComplete</def>
+                    <minAge>0.0</minAge>
+                    <soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+                    <soundDeath>Pawn_Muffalo_Death</soundDeath>
+                </li>
+            </lifeStageAges>
+            <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+        </race>
+        <recipes>
+            <li>ABF_CoolantInjection</li>
+        </recipes>
+		<butcherProducts>
+			<Steel>40</Steel>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</butcherProducts>
+		<modExtensions>
+            <li Class="ArtificialBeings.ABF_ArtificialPawnExtension">
+                <blacklistedNeeds>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Hygiene</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
+                </blacklistedNeeds>
+                <artificialNeeds>
+                    <li><key>ABF_Coolant</key><value>2</value></li>
+                </artificialNeeds>
+                <medicineList>
+                    <li>ABF_RepairStimSimple</li>
+                    <li>ABF_RepairStimIntermediate</li>
+                    <li>ABF_RepairStimAdvanced</li>
+                </medicineList>
+                <onlyUseRaceRestrictedMedicine>true</onlyUseRaceRestrictedMedicine>
+                <hediffReplacements>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_CoreLockout</value></li>
+                </hediffReplacements>
+            </li>
+		</modExtensions>
+    </ThingDef>
+
+    <PawnKindDef ParentName="ABF_SynstructAnimalKindBase">
+        <defName>ABF_PawnKind_Synstruct_Nutristruct_Newboot</defName>
+        <label>nutristruct</label>
+        <race>ABF_Thing_Synstruct_Nutristruct</race>
+        <combatPower>20</combatPower>
+        <canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>0.5</ecoSystemWeight>
+        <defaultFactionType>PlayerColony</defaultFactionType>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                    <texPath>Things/Pawns/Animals/Nutristruct/Nutristruct</texPath>
+                    <drawSize>2.75</drawSize>
+                    <shadowData>
+                        <volume>(0.8, 0.6, 0.6)</volume>
+                        <offset>(0,0,-0.3)</offset>
+                    </shadowData>
+                </bodyGraphicData>
+                <dessicatedBodyGraphicData>
+                    <texPath>Things/Pawns/Animals/Nutristruct/Nutristruct</texPath>
+                    <drawSize>2.75</drawSize>
+                </dessicatedBodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+
+</Defs>

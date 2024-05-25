@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="ABF_SynstructAnimalThingBase">
+		<defName>ABF_Thing_Synstruct_Chemstruct</defName>
+		<label>chemstruct</label>
+		<description>A highly specialized synstruct drone capable of identifying, seeking, and absorbing biological matter for processing into a synthetic chemical precursor to neutroamine or chemfuel, these are essential elements among synstruct societies. The process lent itself well to shaping a machine in the form of a small bird, with the product outputted as a self-stored egg-like capsule. The wings are purely cosmetic.\n\nChemstructs are carnivorous beings, relying on the fatty materials of meat to both break down chemically and to fuel their own reactor.</description>
+		<statBases>
+			<MoveSpeed>4.00</MoveSpeed>
+			<MarketValue>500</MarketValue>
+            <Mass>20</Mass>
+            <ABF_ChargingSpeed>0</ABF_ChargingSpeed>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>ABF_Thing_Synstruct_ChemicalCapsule</eggUnfertilizedDef>
+				<eggFertilizedDef>ABF_Thing_Synstruct_ChemicalCapsule</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>1</eggLayIntervalDays>
+				<eggCountRange>1</eggCountRange>
+				<eggLayFemaleOnly>false</eggLayFemaleOnly>
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<race>
+			<body>ABF_Body_Synstruct_BipedalBiomimetic</body>
+            <baseHungerRate>0.14</baseHungerRate>
+			<baseBodySize>0.3</baseBodySize>
+			<baseHealthScale>0.5</baseHealthScale>
+			<foodType>CarnivoreAnimal</foodType>
+			<nameOnTameChance>1</nameOnTameChance>
+			<hediffGiverSets Inherit="False">
+				<li>ABF_SynstructCoolantless</li>
+			</hediffGiverSets>
+			<lifeStageAges>
+				<li>
+					<def>ABF_ArtificialComplete</def>
+					<minAge>0.0</minAge>
+					<soundWounded>Pawn_Chick_Call</soundWounded>
+					<soundDeath>Pawn_Chick_Call</soundDeath>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		</race>
+		<butcherProducts>
+			<Steel>20</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</butcherProducts>
+		<modExtensions>
+            <li Class="ArtificialBeings.ABF_ArtificialPawnExtension">
+                <blacklistedNeeds>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Hygiene</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
+                </blacklistedNeeds>
+                <medicineList>
+                    <li>ABF_RepairStimSimple</li>
+                    <li>ABF_RepairStimIntermediate</li>
+                    <li>ABF_RepairStimAdvanced</li>
+                </medicineList>
+                <onlyUseRaceRestrictedMedicine>true</onlyUseRaceRestrictedMedicine>
+                <hediffReplacements>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_CoreLockout</value></li>
+                </hediffReplacements>
+            </li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="ABF_SynstructAnimalKindBase">
+		<defName>ABF_PawnKind_Synstruct_Chemstruct_Newboot</defName>
+		<label>chemstruct</label>
+		<race>ABF_Thing_Synstruct_Chemstruct</race>
+        <combatPower>10</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>0.3</ecoSystemWeight>
+		<defaultFactionType>PlayerColony</defaultFactionType>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawns/Animals/Chemstruct/Chemstruct</texPath>
+					<drawSize>0.9</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawns/Animals/Chemstruct/Chemstruct</texPath>
+					<drawSize>0.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+</Defs>
