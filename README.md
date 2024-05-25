@@ -20,4 +20,4 @@ Reflective Metal in Corner by macrovector on Freepik
 ## Links
 [Discord] (https://discord.gg/udNCpbkABT)
 
-[GitHub] ()
+[GitHub] (https://github.com/RWDevathon/Synstruct-Biomimetics)
