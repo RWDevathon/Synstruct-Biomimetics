@@ -7,15 +7,15 @@
     </supportedVersions>
     <modDependencies>
         <li>
-            <packageId>Killathon.ArtificialBeings.SynstructsCore</packageId>
+            <packageId>Killathon.ArtificialBeings.SynCore</packageId>
             <displayName>ABF: Synstructs Core</displayName>
             <!-- <steamWorkshopUrl></steamWorkshopUrl> -->
             <downloadUrl>https://github.com/RWDevathon/Synstructs-Core</downloadUrl>
         </li>
     </modDependencies>
-    <packageId>Killathon.ArtificialBeings.SynstructsCore.SynstructBiomimetics</packageId>
+    <packageId>Killathon.ArtificialBeings.SynCore.Biomimetics</packageId>
     <loadAfter>
-        <li>Killathon.ArtificialBeings.SynstructsCore</li>
+        <li>Killathon.ArtificialBeings.SynCore</li>
     </loadAfter>
     <description><![CDATA[Synstructs have long been integrated into human societies, inheriting a proclivity toward domestication and adopting lesser-intelligence creatures. Being purely mechanical, synstructs take a much simpler approach than the slow process of selective breeding: they just manufacture their own pets and livestock.
 
