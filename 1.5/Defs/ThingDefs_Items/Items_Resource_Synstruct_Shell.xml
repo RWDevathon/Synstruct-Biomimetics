@@ -34,7 +34,7 @@
         </comps>
         <projectileWhenLoaded>ABF_Thing_Synstruct_RazorstructShell_Round</projectileWhenLoaded>
         <recipeMaker>
-            <researchPrerequisite>ABF_ResearchProject_Synstruct_AdvancedBiomimetics</researchPrerequisite>
+            <researchPrerequisite>ABF_ResearchProject_Synstruct_Biomimetics</researchPrerequisite>
             <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
             <effectWorking>Repair</effectWorking>
             <soundWorking>Recipe_Machining</soundWorking>

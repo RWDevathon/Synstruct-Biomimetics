@@ -13,7 +13,7 @@
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <researchPrerequisite>ABF_ResearchProject_Synstruct_AdvancedBiomimetics</researchPrerequisite>
+            <researchPrerequisite>ABF_ResearchProject_Synstruct_Biomimetics</researchPrerequisite>
         </recipeMaker>
         <costList>
             <Steel>60</Steel>
@@ -39,7 +39,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <recipeMaker>
-            <researchPrerequisite>ABF_ResearchProject_Synstruct_SimpleBiomimetics</researchPrerequisite>
+            <researchPrerequisite>ABF_ResearchProject_Synstruct_Biomimetics</researchPrerequisite>
         </recipeMaker>
         <costList>
             <Steel>60</Steel>
@@ -63,7 +63,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <recipeMaker>
-            <researchPrerequisite>ABF_ResearchProject_Synstruct_SimpleBiomimetics</researchPrerequisite>
+            <researchPrerequisite>ABF_ResearchProject_Synstruct_Biomimetics</researchPrerequisite>
         </recipeMaker>
         <costList>
             <Steel>200</Steel>
@@ -87,7 +87,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <recipeMaker>
-            <researchPrerequisite>ABF_ResearchProject_Synstruct_SimpleBiomimetics</researchPrerequisite>
+            <researchPrerequisite>ABF_ResearchProject_Synstruct_Biomimetics</researchPrerequisite>
         </recipeMaker>
         <costList>
             <Steel>200</Steel>
@@ -110,7 +110,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <recipeMaker>
-            <researchPrerequisite>ABF_ResearchProject_Synstruct_SimpleBiomimetics</researchPrerequisite>
+            <researchPrerequisite>ABF_ResearchProject_Synstruct_Biomimetics</researchPrerequisite>
         </recipeMaker>
         <costList>
             <Steel>40</Steel>
