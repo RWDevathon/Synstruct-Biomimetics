@@ -62,14 +62,6 @@
                     </groups>
                 </li>
                 <li>
-                    <def>ABF_MechaniteStorage</def>
-                    <coverage>0.01</coverage>
-                    <depth>Inside</depth>
-                    <groups>
-                        <li>Torso</li>
-                    </groups>
-                </li>
-                <li>
                     <def>ABF_SynstructNeck</def>
                     <coverage>0.10</coverage>
                     <height>Top</height>
