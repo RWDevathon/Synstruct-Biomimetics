@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="ABF_SynstructAnimalThingBase">
+    <ThingDef ParentName="ABF_Thing_Synstruct_AnimalBase">
         <defName>ABF_Thing_Synstruct_Steelstruct</defName>
         <label>steelstruct</label>
         <description>These drones are ubiquitous in synstruct societies on life-bearing worlds thanks to their specialized machinery capable of extracting minerals from organic material in order to refine and forge into steel. Their ravenous consumption of said organic matter has led to planet-wide bans in many systems - and to many worlds being turned near lifeless by roaming synstruct "pastoralists" who take "herds" of these creatures from planet to planet.</description>
         <statBases>
             <MoveSpeed>2.00</MoveSpeed>
             <MarketValue>600</MarketValue>
-            <ABF_ChargingSpeed>0</ABF_ChargingSpeed>
+            <ABF_Stat_Synstruct_ChargingSpeed>0</ABF_Stat_Synstruct_ChargingSpeed>
         </statBases>
         <tools>
             <li>
@@ -38,7 +38,7 @@
             <nameOnTameChance>1</nameOnTameChance>
             <lifeStageAges>
                 <li>
-                    <def>ABF_ArtificialComplete</def>
+                    <def>ABF_LifeStage_Artificial_Complete</def>
                     <minAge>0.0</minAge>
                     <soundWounded>Pawn_Muffalo_Wounded</soundWounded>
                     <soundDeath>Pawn_Muffalo_Death</soundDeath>
@@ -56,7 +56,7 @@
             </ageGenerationCurve>
         </race>
         <recipes>
-            <li>ABF_CoolantInjection</li>
+            <li>ABF_Recipe_Synstruct_InjectCoolant</li>
         </recipes>
 		<butcherProducts>
 			<Steel>50</Steel>
@@ -71,23 +71,23 @@
                     <li MayRequire="Dubwise.DubsBadHygiene">DBHThirst</li>
                 </blacklistedNeeds>
                 <artificialNeeds>
-                    <li><key>ABF_Coolant</key><value>2</value></li>
+                    <li><key>ABF_Need_Synstruct_Coolant</key><value>2</value></li>
                 </artificialNeeds>
                 <medicineList>
-                    <li>ABF_RepairStimSimple</li>
-                    <li>ABF_RepairStimIntermediate</li>
-                    <li>ABF_RepairStimAdvanced</li>
+                    <li>ABF_Thing_Synstruct_RepairStimMinor</li>
+                    <li>ABF_Thing_Synstruct_RepairStim</li>
+                    <li>ABF_Thing_Synstruct_RepairStimUltra</li>
                 </medicineList>
                 <onlyUseRaceRestrictedMedicine>true</onlyUseRaceRestrictedMedicine>
                 <hediffReplacements>
-                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_CoreLockout</value></li>
-                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
                 </hediffReplacements>
             </li>
 		</modExtensions>
     </ThingDef>
 
-    <PawnKindDef ParentName="ABF_SynstructAnimalKindBase">
+    <PawnKindDef ParentName="ABF_PawnKind_Synstruct_AnimalBase">
         <defName>ABF_PawnKind_Synstruct_Steelstruct_Newboot</defName>
         <label>steelstruct</label>
         <race>ABF_Thing_Synstruct_Steelstruct</race>

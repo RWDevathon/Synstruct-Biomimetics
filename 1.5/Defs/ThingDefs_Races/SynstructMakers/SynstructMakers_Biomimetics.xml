@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="ABF_MakeableGeneratorBase">
+    <ThingDef ParentName="ABF_Thing_Synstruct_Generator_MakeableBase">
         <defName>ABF_Thing_Synstruct_GuardstructGenerator</defName>
         <label>guardstruct</label>
         <description>An uninitialized synstruct wolf-analogue designed for guard, assault, search and destroy, and support duties. Guardstructs are intelligent drones and capable of charging.</description>
@@ -19,8 +19,8 @@
             <Steel>60</Steel>
             <Plasteel>30</Plasteel>
             <Uranium>40</Uranium>
-            <ABF_CoolantPack>1</ABF_CoolantPack>
-            <ABF_LubricantPack>1</ABF_LubricantPack>
+            <ABF_Thing_Synstruct_CoolantPack>1</ABF_Thing_Synstruct_CoolantPack>
+            <ABF_Thing_Synstruct_LubricantPack>1</ABF_Thing_Synstruct_LubricantPack>
             <ComponentIndustrial>6</ComponentIndustrial>
         </costList>
         <comps>
@@ -30,7 +30,7 @@
         </comps>
     </ThingDef>
 
-    <ThingDef ParentName="ABF_MakeableGeneratorBase">
+    <ThingDef ParentName="ABF_Thing_Synstruct_Generator_MakeableBase">
         <defName>ABF_Thing_Synstruct_ConvoystructGenerator</defName>
         <label>TORT</label>
         <description>An uninitialized mechanical tortoise-analogue designed for both short and long range transportation services. Convoystructs are intelligent drones and capable of charging.</description>
@@ -54,7 +54,7 @@
         </comps>
     </ThingDef>
 
-    <ThingDef ParentName="ABF_MakeableGeneratorBase">
+    <ThingDef ParentName="ABF_Thing_Synstruct_Generator_MakeableBase">
         <defName>ABF_Thing_Synstruct_SteelstructGenerator</defName>
         <label>steelstruct</label>
         <description>An uninitialized mechanical sheep-analogue designed for producing steel. This unit necessitates organic matter consumption, and can not charge.</description>
@@ -68,7 +68,7 @@
         <costList>
             <Steel>200</Steel>
             <Plasteel>40</Plasteel>
-            <ABF_CoolantPack>1</ABF_CoolantPack>
+            <ABF_Thing_Synstruct_CoolantPack>1</ABF_Thing_Synstruct_CoolantPack>
             <ComponentIndustrial>16</ComponentIndustrial>
         </costList>
         <comps>
@@ -78,7 +78,7 @@
         </comps>
     </ThingDef>
 
-    <ThingDef ParentName="ABF_MakeableGeneratorBase">
+    <ThingDef ParentName="ABF_Thing_Synstruct_Generator_MakeableBase">
         <defName>ABF_Thing_Synstruct_NutristructGenerator</defName>
         <label>nutristruct</label>
         <description>An uninitialized mechanical cow-analogue designed for producing high-grade high-efficiency milk. This synstruct requires organic matter consumption, and can not charge.</description>
@@ -91,7 +91,7 @@
         </recipeMaker>
         <costList>
             <Steel>200</Steel>
-            <ABF_CoolantPack>1</ABF_CoolantPack>
+            <ABF_Thing_Synstruct_CoolantPack>1</ABF_Thing_Synstruct_CoolantPack>
             <ComponentIndustrial>20</ComponentIndustrial>
         </costList>
         <comps>
@@ -101,7 +101,7 @@
         </comps>
     </ThingDef>
 
-    <ThingDef ParentName="ABF_MakeableGeneratorBase">
+    <ThingDef ParentName="ABF_Thing_Synstruct_Generator_MakeableBase">
         <defName>ABF_Thing_Synstruct_ChemstructGenerator</defName>
         <label>chemstruct</label>
         <description>An uninitialized mechanical hen-analogue designed for producing neutroamine or chemfuel precursors. The process requires fats and compounds derived from meat, and cannot charge.</description>
@@ -125,14 +125,14 @@
 
     <!-- Non-Manufacturable, only generated via Razorstruct shell, so inherit only from the Generator Base. -->
 
-    <ThingDef ParentName="ABF_GeneratorBase">
+    <ThingDef ParentName="ABF_Thing_Synstruct_Generator_Base">
         <defName>ABF_Thing_Synstruct_RazorstructGenerator</defName>
         <label>razorstruct</label>
         <description>An uninitialized mechanical drone designed for swarming targets. They have a severely limited battery lifespan, yield nothing when destroyed, and attack anything else.</description>
         <comps>
             <li Class="ArtificialBeings.CompProperties_PawnSpawner">
                 <pawnKind>ABF_PawnKind_Synstruct_Razorstruct_Eradicator</pawnKind>
-                <mentalStateOnSpawn>ABF_MentalState_Exterminator</mentalStateOnSpawn>
+                <mentalStateOnSpawn>ABF_MentalState_Synstruct_Exterminator</mentalStateOnSpawn>
             </li>
         </comps>
     </ThingDef>

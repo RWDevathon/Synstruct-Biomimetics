@@ -41,7 +41,7 @@
             <workAmount>800</workAmount>
             <workSkill>Crafting</workSkill>
             <recipeUsers>
-                <li>ABF_SynstructCradle</li>
+                <li>ABF_Thing_Synstruct_Cradle</li>
             </recipeUsers>
         </recipeMaker>
         <costList>

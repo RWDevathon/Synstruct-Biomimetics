@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="ABF_SynstructAnimalThingBase">
+    <ThingDef ParentName="ABF_Thing_Synstruct_AnimalBase">
         <defName>ABF_Thing_Synstruct_Razorstruct</defName>
         <label>razorstruct</label>
         <description>A small flying drone with two side-mounted plasteel blades. While not particularly dangerous alone, these drones are rarely ever seen alone. Swarms can shred targets to pieces swiftly.\n\nThese drones have exceedingly barebones IFF sensors, and will attack any non-razorstruct.</description>
@@ -50,11 +50,11 @@
 			<foodType>None</foodType>
 			<lifeExpectancy>1</lifeExpectancy>
 			<hediffGiverSets Inherit="False">
-				<li>ABF_SynstructCoolantless</li>
+				<li>ABF_HediffGiverSet_Synstruct_TemperatureVulnerable</li>
 			</hediffGiverSets>
             <lifeStageAges>
                 <li>
-                    <def>ABF_ArtificialComplete</def>
+                    <def>ABF_LifeStage_Artificial_Complete</def>
                     <minAge>0.0</minAge>
                 </li>
             </lifeStageAges>
@@ -83,7 +83,7 @@
 		</butcherProducts>
     </ThingDef>
 
-    <PawnKindDef ParentName="ABF_SynstructAnimalKindBase">
+    <PawnKindDef ParentName="ABF_PawnKind_Synstruct_AnimalBase">
         <defName>ABF_PawnKind_Synstruct_Razorstruct_Eradicator</defName>
         <label>razorstruct</label>
         <race>ABF_Thing_Synstruct_Razorstruct</race>
@@ -94,7 +94,7 @@
         <forceDeathOnDowned>true</forceDeathOnDowned>
         <startingHediffs>
             <li>
-                <def>ABF_RemainingCharge</def>
+                <def>ABF_Hediff_Synstruct_RemainingCharge</def>
                 <severity>0.1</severity>
                 <chance>1</chance>
             </li>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="ABF_SynstructAnimalThingBase">
+	<ThingDef ParentName="ABF_Thing_Synstruct_AnimalBase">
 		<defName>ABF_Thing_Synstruct_Convoystruct</defName>
 		<label>convoystruct</label>
 		<description>Based on ancient treaded multi-terrain vehicles and the strangely successful biological species of tortoises, Convoystructs are heavily armored hollowed out drone synstructs programmed to relocate goods similar to ancient forklifts and to serve as long-range land carriers. Beloved by synstruct societies, the cheerfully nicknamed Treaded Object for Retrieval and Transport - or TORT - is a key component of many of their operations. \n\nThe unit's size and hollow interior allows it to transport people as well as standard cargo, allowing it to be used for search and rescue - and in a few infamous incidents, kidnappings.</description>
@@ -12,8 +12,8 @@
 			<ArmorRating_Blunt>0.70</ArmorRating_Blunt>
             <ArmorRating_Heat>1</ArmorRating_Heat>
             <IncomingDamageFactor>0.75</IncomingDamageFactor>
-            <ABF_NutritionalIntakeEfficiency>1</ABF_NutritionalIntakeEfficiency>
-            <ABF_ChargingSpeed>2</ABF_ChargingSpeed>
+            <ABF_Stat_Synstruct_NutritionalIntakeEfficiency>1</ABF_Stat_Synstruct_NutritionalIntakeEfficiency>
+            <ABF_Stat_Synstruct_ChargingSpeed>2</ABF_Stat_Synstruct_ChargingSpeed>
 		</statBases>
 		<tools>
 			<li>
@@ -36,7 +36,7 @@
 			<trainability>Advanced</trainability>
 			<lifeStageAges>
 				<li>
-					<def>ABF_ArtificialComplete</def>
+					<def>ABF_LifeStage_Artificial_Complete</def>
 					<minAge>0.0</minAge>
 					<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
 					<soundDeath>Pawn_Muffalo_Death</soundDeath>
@@ -47,7 +47,7 @@
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
         <recipes>
-            <li>ABF_CoolantInjection</li>
+            <li>ABF_Recipe_Synstruct_InjectCoolant</li>
         </recipes>
 		<butcherProducts>
 			<Steel>40</Steel>
@@ -62,23 +62,23 @@
                     <li MayRequire="Dubwise.DubsBadHygiene">DBHThirst</li>
                 </blacklistedNeeds>
                 <artificialNeeds>
-                    <li><key>ABF_Coolant</key><value>0.5</value></li>
+                    <li><key>ABF_Need_Synstruct_Coolant</key><value>0.5</value></li>
                 </artificialNeeds>
                 <medicineList>
-                    <li>ABF_RepairStimSimple</li>
-                    <li>ABF_RepairStimIntermediate</li>
-                    <li>ABF_RepairStimAdvanced</li>
+                    <li>ABF_Thing_Synstruct_RepairStimMinor</li>
+                    <li>ABF_Thing_Synstruct_RepairStim</li>
+                    <li>ABF_Thing_Synstruct_RepairStimUltra</li>
                 </medicineList>
                 <onlyUseRaceRestrictedMedicine>true</onlyUseRaceRestrictedMedicine>
                 <hediffReplacements>
-                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_CoreLockout</value></li>
-                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
                 </hediffReplacements>
             </li>
 		</modExtensions>
 	</ThingDef>
 
-	<PawnKindDef ParentName="ABF_SynstructAnimalKindBase">
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_AnimalBase">
 		<defName>ABF_PawnKind_Synstruct_Convoystruct_Newboot</defName>
 		<label>convoystruct</label>
 		<race>ABF_Thing_Synstruct_Convoystruct</race>

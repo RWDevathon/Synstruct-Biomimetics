@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <ThingDef ParentName="ABF_SynstructAnimalThingBase">
+    <ThingDef ParentName="ABF_Thing_Synstruct_AnimalBase">
         <defName>ABF_Thing_Synstruct_Nutristruct</defName>
         <label>nutristruct</label>
         <description>A lumbering synstruct drone designed to maximize nutrition from organic matter for human consumption. Unlike other mechanical drones, this unit is quite rare amongst android societies given its intended purpose. With an almost disturbingly long shelf-life and extremely high nutritive content, acquisition of units like this have led to population booms on many worlds - and curiously enough by extension, many wars.</description>
         <statBases>
             <MoveSpeed>2.00</MoveSpeed>
             <MarketValue>600</MarketValue>
-            <ABF_ChargingSpeed>0</ABF_ChargingSpeed>
+            <ABF_Stat_Synstruct_ChargingSpeed>0</ABF_Stat_Synstruct_ChargingSpeed>
         </statBases>
         <comps>
             <li Class="CompProperties_Milkable">
@@ -39,7 +39,7 @@
 			<foodType>VegetableOrFruit, Meat, Corpse, Seed, Plant, Fungus</foodType>
             <lifeStageAges>
                 <li>
-                    <def>ABF_ArtificialComplete</def>
+                    <def>ABF_LifeStage_Artificial_Complete</def>
                     <minAge>0.0</minAge>
                     <soundWounded>Pawn_Muffalo_Wounded</soundWounded>
                     <soundDeath>Pawn_Muffalo_Death</soundDeath>
@@ -50,7 +50,7 @@
             <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
         </race>
         <recipes>
-            <li>ABF_CoolantInjection</li>
+            <li>ABF_Recipe_Synstruct_InjectCoolant</li>
         </recipes>
 		<butcherProducts>
 			<Steel>40</Steel>
@@ -63,23 +63,23 @@
                     <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
                 </blacklistedNeeds>
                 <artificialNeeds>
-                    <li><key>ABF_Coolant</key><value>2</value></li>
+                    <li><key>ABF_Need_Synstruct_Coolant</key><value>2</value></li>
                 </artificialNeeds>
                 <medicineList>
-                    <li>ABF_RepairStimSimple</li>
-                    <li>ABF_RepairStimIntermediate</li>
-                    <li>ABF_RepairStimAdvanced</li>
+                    <li>ABF_Thing_Synstruct_RepairStimMinor</li>
+                    <li>ABF_Thing_Synstruct_RepairStim</li>
+                    <li>ABF_Thing_Synstruct_RepairStimUltra</li>
                 </medicineList>
                 <onlyUseRaceRestrictedMedicine>true</onlyUseRaceRestrictedMedicine>
                 <hediffReplacements>
-                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_CoreLockout</value></li>
-                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
                 </hediffReplacements>
             </li>
 		</modExtensions>
     </ThingDef>
 
-    <PawnKindDef ParentName="ABF_SynstructAnimalKindBase">
+    <PawnKindDef ParentName="ABF_PawnKind_Synstruct_AnimalBase">
         <defName>ABF_PawnKind_Synstruct_Nutristruct_Newboot</defName>
         <label>nutristruct</label>
         <race>ABF_Thing_Synstruct_Nutristruct</race>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef ParentName="ABF_SynstructAnimalThingBase">
+	<ThingDef ParentName="ABF_Thing_Synstruct_AnimalBase">
 		<defName>ABF_Thing_Synstruct_Chemstruct</defName>
 		<label>chemstruct</label>
 		<description>A highly specialized synstruct drone capable of identifying, seeking, and absorbing biological matter for processing into a synthetic chemical precursor to neutroamine or chemfuel, these are essential elements among synstruct societies. The process lent itself well to shaping a machine in the form of a small bird, with the product outputted as a self-stored egg-like capsule. The wings are purely cosmetic.\n\nChemstructs are carnivorous beings, relying on the fatty materials of meat to both break down chemically and to fuel their own reactor.</description>
@@ -9,7 +9,7 @@
 			<MoveSpeed>4.00</MoveSpeed>
 			<MarketValue>500</MarketValue>
             <Mass>20</Mass>
-            <ABF_ChargingSpeed>0</ABF_ChargingSpeed>
+            <ABF_Stat_Synstruct_ChargingSpeed>0</ABF_Stat_Synstruct_ChargingSpeed>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_EggLayer">
@@ -40,11 +40,11 @@
 			<foodType>CarnivoreAnimal</foodType>
 			<nameOnTameChance>1</nameOnTameChance>
 			<hediffGiverSets Inherit="False">
-				<li>ABF_SynstructCoolantless</li>
+				<li>ABF_HediffGiverSet_Synstruct_TemperatureVulnerable</li>
 			</hediffGiverSets>
 			<lifeStageAges>
 				<li>
-					<def>ABF_ArtificialComplete</def>
+					<def>ABF_LifeStage_Artificial_Complete</def>
 					<minAge>0.0</minAge>
 					<soundWounded>Pawn_Chick_Call</soundWounded>
 					<soundDeath>Pawn_Chick_Call</soundDeath>
@@ -65,20 +65,20 @@
                     <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
                 </blacklistedNeeds>
                 <medicineList>
-                    <li>ABF_RepairStimSimple</li>
-                    <li>ABF_RepairStimIntermediate</li>
-                    <li>ABF_RepairStimAdvanced</li>
+                    <li>ABF_Thing_Synstruct_RepairStimMinor</li>
+                    <li>ABF_Thing_Synstruct_RepairStim</li>
+                    <li>ABF_Thing_Synstruct_RepairStimUltra</li>
                 </medicineList>
                 <onlyUseRaceRestrictedMedicine>true</onlyUseRaceRestrictedMedicine>
                 <hediffReplacements>
-                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_CoreLockout</value></li>
-                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>BloodRot</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
+                    <li MayRequire="Ludeon.RimWorld.Royalty"><key>Abasia</key><value>ABF_Hediff_Synstruct_CoreLockout</value></li>
                 </hediffReplacements>
             </li>
 		</modExtensions>
 	</ThingDef>
 
-	<PawnKindDef ParentName="ABF_SynstructAnimalKindBase">
+	<PawnKindDef ParentName="ABF_PawnKind_Synstruct_AnimalBase">
 		<defName>ABF_PawnKind_Synstruct_Chemstruct_Newboot</defName>
 		<label>chemstruct</label>
 		<race>ABF_Thing_Synstruct_Chemstruct</race>
