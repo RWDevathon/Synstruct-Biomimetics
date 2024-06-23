@@ -38,7 +38,7 @@
             <nameOnTameChance>1</nameOnTameChance>
             <lifeStageAges>
                 <li>
-                    <def>ABF_LifeStage_Artificial_Complete</def>
+                    <def>ABF_LifeStage_Artificial_AnimalComplete</def>
                     <minAge>0.0</minAge>
                     <soundWounded>Pawn_Muffalo_Wounded</soundWounded>
                     <soundDeath>Pawn_Muffalo_Death</soundDeath>

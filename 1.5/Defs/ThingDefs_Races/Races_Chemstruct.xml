@@ -44,7 +44,7 @@
 			</hediffGiverSets>
 			<lifeStageAges>
 				<li>
-					<def>ABF_LifeStage_Artificial_Complete</def>
+					<def>ABF_LifeStage_Artificial_AnimalComplete</def>
 					<minAge>0.0</minAge>
 					<soundWounded>Pawn_Chick_Call</soundWounded>
 					<soundDeath>Pawn_Chick_Call</soundDeath>
