@@ -4,7 +4,7 @@
     <ThingDef ParentName="ABF_Thing_Synstruct_AnimalBase">
         <defName>ABF_Thing_Synstruct_Nutristruct</defName>
         <label>nutristruct</label>
-        <description>A lumbering synstruct drone designed to maximize nutrition from organic matter for human consumption. Unlike other mechanical drones, this unit is quite rare amongst android societies given its intended purpose. With an almost disturbingly long shelf-life and extremely high nutritive content, acquisition of units like this have led to population booms on many worlds - and curiously enough by extension, many wars.</description>
+        <description>A lumbering synstruct drone designed to maximize nutrition from raw organic matter for biological entities to consume. Unique among biomimetics, this unit is rarely found in the possession of a synstruct, given that they generally prefer to charge than consume food. With an almost disturbingly long shelf-life and extremely high nutritive content, the nutrient solution this unit produces is highly prized among human societies. Acquisition of units like this have led to population booms on many worlds - and curiously enough by extension, many wars.</description>
         <statBases>
             <MoveSpeed>2.00</MoveSpeed>
             <MarketValue>600</MarketValue>

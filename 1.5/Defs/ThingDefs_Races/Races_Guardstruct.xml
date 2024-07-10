@@ -4,7 +4,7 @@
 	<ThingDef ParentName="ABF_Thing_Synstruct_AnimalBase">
 		<defName>ABF_Thing_Synstruct_Guardstruct</defName>
 		<label>guardstruct</label>
-		<description>These drone synstructs are unique in many ways - programmable for a wide range of tasks both military and civilian in nature, heavily armed and yet disarmingly affectionate, charge-capable and command-responsive - and are thus a well known line of mechanical biomimetics. Many serve as companions, as fearsome scouts, as mobile surveillance, or even as sappers.\n\nTheir lethality and violent capabilities have certainly earned them a reputation - a reputation they almost seem keen to keep.</description>
+		<description>These drone synstructs are unique in many ways - programmable for a wide range of tasks both military and civilian in nature, heavily armed and yet disarmingly affectionate, charge-capable and command-responsive - and are thus a well known line of biomimetic. Many serve as companions, as fearsome scouts, as mobile surveillance, or even as sappers.\n\nTheir lethality and violent capabilities have certainly earned them a reputation - a reputation they almost seem keen to keep.</description>
 		<statBases>
 			<MarketValue>700</MarketValue>
 			<MoveSpeed>6.5</MoveSpeed>

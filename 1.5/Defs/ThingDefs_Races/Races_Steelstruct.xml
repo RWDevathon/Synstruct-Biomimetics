@@ -4,7 +4,7 @@
     <ThingDef ParentName="ABF_Thing_Synstruct_AnimalBase">
         <defName>ABF_Thing_Synstruct_Steelstruct</defName>
         <label>steelstruct</label>
-        <description>These drones are ubiquitous in synstruct societies on life-bearing worlds thanks to their specialized machinery capable of extracting minerals from organic material in order to refine and forge into steel. Their ravenous consumption of said organic matter has led to planet-wide bans in many systems - and to many worlds being turned near lifeless by roaming synstruct "pastoralists" who take "herds" of these creatures from planet to planet.</description>
+        <description>These drones are ubiquitous in synstruct societies on life-bearing worlds thanks to their specialized machinery capable of extracting minerals from organic material in order to refine and forge into steel. Their ravenous consumption of said organic matter has led to planet-wide bans in many systems - and to many worlds becoming nearly lifeless by roaming synstruct "pastoralists" who take "herds" of these creatures from planet to planet.</description>
         <statBases>
             <MoveSpeed>2.00</MoveSpeed>
             <MarketValue>600</MarketValue>
