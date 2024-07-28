@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Thing_Synstruct_Razorstruct.label>razorstruct</ABF_Thing_Synstruct_Razorstruct.label>
+  <ABF_Thing_Synstruct_Razorstruct.description>A small flying drone with two side-mounted plasteel blades. While not particularly dangerous alone, these drones are rarely ever seen alone. Swarms can shred targets to pieces swiftly.\n\nThese drones have exceedingly barebones IFF sensors, and will attack any non-razorstruct.</ABF_Thing_Synstruct_Razorstruct.description>
+  <ABF_Thing_Synstruct_Razorstruct.tools.0.label>head</ABF_Thing_Synstruct_Razorstruct.tools.0.label>
+  <ABF_Thing_Synstruct_Razorstruct.tools.1.label>left wing</ABF_Thing_Synstruct_Razorstruct.tools.1.label>
+  <ABF_Thing_Synstruct_Razorstruct.tools.2.label>right wing</ABF_Thing_Synstruct_Razorstruct.tools.2.label>
+
+
+</LanguageData>

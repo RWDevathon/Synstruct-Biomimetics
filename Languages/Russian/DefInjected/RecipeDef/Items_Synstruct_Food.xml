@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Recipe_Synstruct_MakeNutritionBlocksFromSolutions.label>stabilize nutrient solution with chemical capsules</ABF_Recipe_Synstruct_MakeNutritionBlocksFromSolutions.label>
+  <ABF_Recipe_Synstruct_MakeNutritionBlocksFromSolutions.description>Make a batch of stabilized nutrition blocks by refining nutrient solution with chemical capsules. This is a time-intensive task.</ABF_Recipe_Synstruct_MakeNutritionBlocksFromSolutions.description>
+  <ABF_Recipe_Synstruct_MakeNutritionBlocksFromSolutions.jobString>Stabilizing nutrient solution with capsules.</ABF_Recipe_Synstruct_MakeNutritionBlocksFromSolutions.jobString>
+
+
+</LanguageData>

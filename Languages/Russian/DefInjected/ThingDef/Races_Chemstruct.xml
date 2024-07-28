@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Thing_Synstruct_Chemstruct.label>chemstruct</ABF_Thing_Synstruct_Chemstruct.label>
+  <ABF_Thing_Synstruct_Chemstruct.description>A highly specialized synstruct drone capable of identifying, seeking, and absorbing biological matter for processing into a synthetic chemical precursor to neutroamine or chemfuel, chemstructs are essential elements among synstruct societies. The process lent itself well to shaping a machine in the form of a small bird, with the product outputted as a self-stored egg-like capsule. The wings are purely cosmetic.\n\nChemstructs are carnivorous beings, relying on the fatty materials of meat to both break down chemically into their products and to fuel their own reactor.</ABF_Thing_Synstruct_Chemstruct.description>
+  <ABF_Thing_Synstruct_Chemstruct.tools.0.label>head</ABF_Thing_Synstruct_Chemstruct.tools.0.label>
+
+
+</LanguageData>

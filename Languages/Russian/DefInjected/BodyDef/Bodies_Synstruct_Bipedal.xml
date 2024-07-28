@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Body_Synstruct_BipedalBiomimetic.label>bipedal synstruct body</ABF_Body_Synstruct_BipedalBiomimetic.label>
+  <ABF_Body_Synstruct_BipedalBiomimetic.corePart.parts.2.customLabel>left heatsink</ABF_Body_Synstruct_BipedalBiomimetic.corePart.parts.2.customLabel>
+  <ABF_Body_Synstruct_BipedalBiomimetic.corePart.parts.3.customLabel>right heatsink</ABF_Body_Synstruct_BipedalBiomimetic.corePart.parts.3.customLabel>
+  <ABF_Body_Synstruct_BipedalBiomimetic.corePart.parts.5.parts.0.parts.1.customLabel>left visual sensor</ABF_Body_Synstruct_BipedalBiomimetic.corePart.parts.5.parts.0.parts.1.customLabel>
+  <ABF_Body_Synstruct_BipedalBiomimetic.corePart.parts.5.parts.0.parts.2.customLabel>right visual sensor</ABF_Body_Synstruct_BipedalBiomimetic.corePart.parts.5.parts.0.parts.2.customLabel>
+  <ABF_Body_Synstruct_BipedalBiomimetic.corePart.parts.5.parts.0.parts.3.customLabel>left audial sensor</ABF_Body_Synstruct_BipedalBiomimetic.corePart.parts.5.parts.0.parts.3.customLabel>
+  <ABF_Body_Synstruct_BipedalBiomimetic.corePart.parts.5.parts.0.parts.4.customLabel>right audial sensor</ABF_Body_Synstruct_BipedalBiomimetic.corePart.parts.5.parts.0.parts.4.customLabel>
+  <ABF_Body_Synstruct_BipedalBiomimetic.corePart.parts.6.customLabel>left leg</ABF_Body_Synstruct_BipedalBiomimetic.corePart.parts.6.customLabel>
+  <ABF_Body_Synstruct_BipedalBiomimetic.corePart.parts.6.parts.0.customLabel>left foot</ABF_Body_Synstruct_BipedalBiomimetic.corePart.parts.6.parts.0.customLabel>
+  <ABF_Body_Synstruct_BipedalBiomimetic.corePart.parts.7.customLabel>right leg</ABF_Body_Synstruct_BipedalBiomimetic.corePart.parts.7.customLabel>
+  <ABF_Body_Synstruct_BipedalBiomimetic.corePart.parts.7.parts.0.customLabel>right foot</ABF_Body_Synstruct_BipedalBiomimetic.corePart.parts.7.parts.0.customLabel>
+
+
+</LanguageData>
