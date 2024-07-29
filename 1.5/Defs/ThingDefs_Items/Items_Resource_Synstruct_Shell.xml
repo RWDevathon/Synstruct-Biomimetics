@@ -4,7 +4,7 @@
     <ThingDef ParentName="MakeableShellBase">
         <defName>ABF_Thing_Synstruct_RazorstructShell</defName>
         <label>razorstruct shell</label>
-        <description>An artillery shell containing several pre-programmed microscythers that will be unleashed and assault all nearby targets upon impact.</description>
+        <description>An artillery shell containing several razorstructs that will be unleashed and assault all nearby targets upon impact until they are destroyed.</description>
         <graphicData>
             <texPath>Things/Items/Shells/Razorstruct_shell</texPath>
             <graphicClass>Graphic_Single</graphicClass>
