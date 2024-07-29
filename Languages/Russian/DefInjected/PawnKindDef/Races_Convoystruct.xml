@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ABF_PawnKind_Synstruct_Convoystruct_Newboot.label>convoystruct</ABF_PawnKind_Synstruct_Convoystruct_Newboot.label>
-  <ABF_PawnKind_Synstruct_Convoystruct_Newboot.labelPlural>convoystructs</ABF_PawnKind_Synstruct_Convoystruct_Newboot.labelPlural>
-  <ABF_PawnKind_Synstruct_Convoystruct_Newboot.labelMale>male convoystruct</ABF_PawnKind_Synstruct_Convoystruct_Newboot.labelMale>
-  <ABF_PawnKind_Synstruct_Convoystruct_Newboot.labelMalePlural>male convoystructs</ABF_PawnKind_Synstruct_Convoystruct_Newboot.labelMalePlural>
-  <ABF_PawnKind_Synstruct_Convoystruct_Newboot.labelFemale>female convoystruct</ABF_PawnKind_Synstruct_Convoystruct_Newboot.labelFemale>
-  <ABF_PawnKind_Synstruct_Convoystruct_Newboot.labelFemalePlural>female convoystructs</ABF_PawnKind_Synstruct_Convoystruct_Newboot.labelFemalePlural>
+  <ABF_PawnKind_Synstruct_Convoystruct_Newboot.label>механическая черепаха</ABF_PawnKind_Synstruct_Convoystruct_Newboot.label>
+  <ABF_PawnKind_Synstruct_Convoystruct_Newboot.labelPlural>механические черепахи</ABF_PawnKind_Synstruct_Convoystruct_Newboot.labelPlural>
+  <ABF_PawnKind_Synstruct_Convoystruct_Newboot.labelMale>механическая черепаха</ABF_PawnKind_Synstruct_Convoystruct_Newboot.labelMale>
+  <ABF_PawnKind_Synstruct_Convoystruct_Newboot.labelMalePlural>механические черепахи</ABF_PawnKind_Synstruct_Convoystruct_Newboot.labelMalePlural>
+  <ABF_PawnKind_Synstruct_Convoystruct_Newboot.labelFemale>механическая черепаха</ABF_PawnKind_Synstruct_Convoystruct_Newboot.labelFemale>
+  <ABF_PawnKind_Synstruct_Convoystruct_Newboot.labelFemalePlural>механические черепахи</ABF_PawnKind_Synstruct_Convoystruct_Newboot.labelFemalePlural>
 
 
 </LanguageData>

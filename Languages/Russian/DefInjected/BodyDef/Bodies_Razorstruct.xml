@@ -2,12 +2,12 @@
 <LanguageData>
 
   <ABF_Body_Synstruct_Razorstruct.label>razorstruct body</ABF_Body_Synstruct_Razorstruct.label>
-  <ABF_Body_Synstruct_Razorstruct.corePart.parts.1.customLabel>left heatsink</ABF_Body_Synstruct_Razorstruct.corePart.parts.1.customLabel>
-  <ABF_Body_Synstruct_Razorstruct.corePart.parts.2.customLabel>right heatsink</ABF_Body_Synstruct_Razorstruct.corePart.parts.2.customLabel>
-  <ABF_Body_Synstruct_Razorstruct.corePart.parts.3.parts.0.parts.1.customLabel>left visual sensor</ABF_Body_Synstruct_Razorstruct.corePart.parts.3.parts.0.parts.1.customLabel>
-  <ABF_Body_Synstruct_Razorstruct.corePart.parts.3.parts.0.parts.2.customLabel>right visual sensor</ABF_Body_Synstruct_Razorstruct.corePart.parts.3.parts.0.parts.2.customLabel>
-  <ABF_Body_Synstruct_Razorstruct.corePart.parts.4.customLabel>left wing</ABF_Body_Synstruct_Razorstruct.corePart.parts.4.customLabel>
-  <ABF_Body_Synstruct_Razorstruct.corePart.parts.5.customLabel>right wing</ABF_Body_Synstruct_Razorstruct.corePart.parts.5.customLabel>
+  <ABF_Body_Synstruct_Razorstruct.corePart.parts.1.customLabel>левый радиатор</ABF_Body_Synstruct_Razorstruct.corePart.parts.1.customLabel>
+  <ABF_Body_Synstruct_Razorstruct.corePart.parts.2.customLabel>правый радиатор</ABF_Body_Synstruct_Razorstruct.corePart.parts.2.customLabel>
+  <ABF_Body_Synstruct_Razorstruct.corePart.parts.3.parts.0.parts.1.customLabel>левый оптический датчик</ABF_Body_Synstruct_Razorstruct.corePart.parts.3.parts.0.parts.1.customLabel>
+  <ABF_Body_Synstruct_Razorstruct.corePart.parts.3.parts.0.parts.2.customLabel>правый оптический датчик</ABF_Body_Synstruct_Razorstruct.corePart.parts.3.parts.0.parts.2.customLabel>
+  <ABF_Body_Synstruct_Razorstruct.corePart.parts.4.customLabel>левое крыло</ABF_Body_Synstruct_Razorstruct.corePart.parts.4.customLabel>
+  <ABF_Body_Synstruct_Razorstruct.corePart.parts.5.customLabel>правое крыло</ABF_Body_Synstruct_Razorstruct.corePart.parts.5.customLabel>
 
 
 </LanguageData>

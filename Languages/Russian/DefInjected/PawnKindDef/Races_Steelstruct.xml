@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ABF_PawnKind_Synstruct_Steelstruct_Newboot.label>steelstruct</ABF_PawnKind_Synstruct_Steelstruct_Newboot.label>
-  <ABF_PawnKind_Synstruct_Steelstruct_Newboot.labelPlural>steelstructs</ABF_PawnKind_Synstruct_Steelstruct_Newboot.labelPlural>
-  <ABF_PawnKind_Synstruct_Steelstruct_Newboot.labelMale>male steelstruct</ABF_PawnKind_Synstruct_Steelstruct_Newboot.labelMale>
-  <ABF_PawnKind_Synstruct_Steelstruct_Newboot.labelMalePlural>male steelstructs</ABF_PawnKind_Synstruct_Steelstruct_Newboot.labelMalePlural>
-  <ABF_PawnKind_Synstruct_Steelstruct_Newboot.labelFemale>female steelstruct</ABF_PawnKind_Synstruct_Steelstruct_Newboot.labelFemale>
-  <ABF_PawnKind_Synstruct_Steelstruct_Newboot.labelFemalePlural>female steelstructs</ABF_PawnKind_Synstruct_Steelstruct_Newboot.labelFemalePlural>
+  <ABF_PawnKind_Synstruct_Steelstruct_Newboot.label>механическая овца</ABF_PawnKind_Synstruct_Steelstruct_Newboot.label>
+  <ABF_PawnKind_Synstruct_Steelstruct_Newboot.labelPlural>механические овцы</ABF_PawnKind_Synstruct_Steelstruct_Newboot.labelPlural>
+  <ABF_PawnKind_Synstruct_Steelstruct_Newboot.labelMale>механическая овца</ABF_PawnKind_Synstruct_Steelstruct_Newboot.labelMale>
+  <ABF_PawnKind_Synstruct_Steelstruct_Newboot.labelMalePlural>механические овцы</ABF_PawnKind_Synstruct_Steelstruct_Newboot.labelMalePlural>
+  <ABF_PawnKind_Synstruct_Steelstruct_Newboot.labelFemale>механическая овца</ABF_PawnKind_Synstruct_Steelstruct_Newboot.labelFemale>
+  <ABF_PawnKind_Synstruct_Steelstruct_Newboot.labelFemalePlural>механические овцы</ABF_PawnKind_Synstruct_Steelstruct_Newboot.labelFemalePlural>
 
 
 </LanguageData>

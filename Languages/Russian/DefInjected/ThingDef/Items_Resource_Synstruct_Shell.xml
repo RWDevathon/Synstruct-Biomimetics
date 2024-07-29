@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ABF_Thing_Synstruct_RazorstructShell.label>razorstruct shell</ABF_Thing_Synstruct_RazorstructShell.label>
-  <ABF_Thing_Synstruct_RazorstructShell.description>An artillery shell containing several pre-programmed microscythers that will be unleashed and assault all nearby targets upon impact.</ABF_Thing_Synstruct_RazorstructShell.description>
+  <ABF_Thing_Synstruct_RazorstructShell.label>бритвенный снаряд</ABF_Thing_Synstruct_RazorstructShell.label>
+  <ABF_Thing_Synstruct_RazorstructShell.description>Снаряд, заполненный заранее запрограммированным роем бритвы, которые при ударе будут атаковать все близлежащие цели.</ABF_Thing_Synstruct_RazorstructShell.description>
 
-  <ABF_Thing_Synstruct_RazorstructShell_Round.label>razorstruct shell</ABF_Thing_Synstruct_RazorstructShell_Round.label>
+  <ABF_Thing_Synstruct_RazorstructShell_Round.label>бритвенный снаряд</ABF_Thing_Synstruct_RazorstructShell_Round.label>
 
 
 </LanguageData>

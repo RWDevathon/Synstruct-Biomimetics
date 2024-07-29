@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ABF_Thing_Synstruct_NutrientSolution.label>nutrient solution</ABF_Thing_Synstruct_NutrientSolution.label>
-  <ABF_Thing_Synstruct_NutrientSolution.description>A thick slurry of high protein and high calorie substances which has a vaguely honey-like consistency, albeit with a blander taste that is neither offensive nor sweet. This solution is unstabilized, and must be treated with chemical capsules to achieve its notoriously non-spoiling state.</ABF_Thing_Synstruct_NutrientSolution.description>
+  <ABF_Thing_Synstruct_NutrientSolution.label>орграствор</ABF_Thing_Synstruct_NutrientSolution.label>
+  <ABF_Thing_Synstruct_NutrientSolution.description>Густая высококалорийная кашица с высоким содержанием белка, которая имеет невыразительную медовую консистенцию, и приятный вкус. Этот раствор не стабилизирован, и его необходимо обработать химкапсулами, чтобы достичь его не портящегося состояния.</ABF_Thing_Synstruct_NutrientSolution.description>
 
-  <ABF_Thing_Synstruct_NutrientBlock.label>nutrition block</ABF_Thing_Synstruct_NutrientBlock.label>
-  <ABF_Thing_Synstruct_NutrientBlock.description>A dense, nutrition rich block created by stabilizing nutrient solution with chemical capsules. Akin to a crumbly form of cheese, this substance will never expire and is full of essential nutrients for sustenance.</ABF_Thing_Synstruct_NutrientBlock.description>
+  <ABF_Thing_Synstruct_NutrientBlock.label>оргкапсула</ABF_Thing_Synstruct_NutrientBlock.label>
+  <ABF_Thing_Synstruct_NutrientBlock.description>Органическая высококалорийная капсула, богатая белками. Оргкапсула никогда не испортится и полна органических питательных веществ.</ABF_Thing_Synstruct_NutrientBlock.description>
 
 
 </LanguageData>

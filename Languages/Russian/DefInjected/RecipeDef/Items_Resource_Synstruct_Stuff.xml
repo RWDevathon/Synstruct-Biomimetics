@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ABF_Recipe_Synstruct_MakeChemfuelFromCapsules.label>synthesize chemfuel from chemical capsules</ABF_Recipe_Synstruct_MakeChemfuelFromCapsules.label>
-  <ABF_Recipe_Synstruct_MakeChemfuelFromCapsules.description>Make a batch of chemfuel by refining the raw resources within chemical capsules.</ABF_Recipe_Synstruct_MakeChemfuelFromCapsules.description>
-  <ABF_Recipe_Synstruct_MakeChemfuelFromCapsules.jobString>Refining chemfuel from capsules.</ABF_Recipe_Synstruct_MakeChemfuelFromCapsules.jobString>
+  <ABF_Recipe_Synstruct_MakeChemfuelFromCapsules.label>получить химтопливо из химкапсул</ABF_Recipe_Synstruct_MakeChemfuelFromCapsules.label>
+  <ABF_Recipe_Synstruct_MakeChemfuelFromCapsules.description>Получить партию химического топлива путём извлечения реактивов из химкапсул.</ABF_Recipe_Synstruct_MakeChemfuelFromCapsules.description>
+  <ABF_Recipe_Synstruct_MakeChemfuelFromCapsules.jobString>Производит химтопливо из химкапсул.</ABF_Recipe_Synstruct_MakeChemfuelFromCapsules.jobString>
 
-  <ABF_Recipe_Synstruct_MakeNeutroamineFromCapsules.label>synthesize neutroamine from chemical capsules</ABF_Recipe_Synstruct_MakeNeutroamineFromCapsules.label>
-  <ABF_Recipe_Synstruct_MakeNeutroamineFromCapsules.description>Make a batch of neutroamine by refining the raw resources within chemical capsules.</ABF_Recipe_Synstruct_MakeNeutroamineFromCapsules.description>
-  <ABF_Recipe_Synstruct_MakeNeutroamineFromCapsules.jobString>Refining neutroamine from capsules.</ABF_Recipe_Synstruct_MakeNeutroamineFromCapsules.jobString>
+  <ABF_Recipe_Synstruct_MakeNeutroamineFromCapsules.label>получить нейтроамин из химкапсул</ABF_Recipe_Synstruct_MakeNeutroamineFromCapsules.label>
+  <ABF_Recipe_Synstruct_MakeNeutroamineFromCapsules.description>Получить партию нейтроамина путём извлечения реактивов из химкапсул.</ABF_Recipe_Synstruct_MakeNeutroamineFromCapsules.description>
+  <ABF_Recipe_Synstruct_MakeNeutroamineFromCapsules.jobString>Производит нейтроамин из химкапсул.</ABF_Recipe_Synstruct_MakeNeutroamineFromCapsules.jobString>
 
 
 </LanguageData>
