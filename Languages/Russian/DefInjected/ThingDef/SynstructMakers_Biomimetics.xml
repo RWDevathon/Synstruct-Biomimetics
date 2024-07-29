@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Thing_Synstruct_GuardstructGenerator.label>механические волки</ABF_Thing_Synstruct_GuardstructGenerator.label>
+  <ABF_Thing_Synstruct_GuardstructGenerator.description>Неинициализированный механический волк — предназначен для охраны, штурма, поиска и уничтожения. Механические волки достаточно умны и способны заряжаться.</ABF_Thing_Synstruct_GuardstructGenerator.description>
+
+  <ABF_Thing_Synstruct_ConvoystructGenerator.label>механическая черепаха</ABF_Thing_Synstruct_ConvoystructGenerator.label>
+  <ABF_Thing_Synstruct_ConvoystructGenerator.description>Неинициализированная механическая черепаха — предназначена для транспортировки на ближнюю и дальнюю дистанции. Механические черепахи достаточно умны и способны заряжаться.</ABF_Thing_Synstruct_ConvoystructGenerator.description>
+
+  <ABF_Thing_Synstruct_SteelstructGenerator.label>механическая овца</ABF_Thing_Synstruct_SteelstructGenerator.label>
+  <ABF_Thing_Synstruct_SteelstructGenerator.description>Неинициализированная механическая овца — предназначена для производства стали. Механическая овца не способна заряжаться, для её выживания необходима органическая пища.</ABF_Thing_Synstruct_SteelstructGenerator.description>
+
+  <ABF_Thing_Synstruct_NutristructGenerator.label>механическая корова</ABF_Thing_Synstruct_NutristructGenerator.label>
+  <ABF_Thing_Synstruct_NutristructGenerator.description>Неинициализированная механическая корова — предназначена для получения питательного орграствора. Механическая корова не способна заряжаться, для её выживания необходима органическая пища.</ABF_Thing_Synstruct_NutristructGenerator.description>
+
+  <ABF_Thing_Synstruct_ChemstructGenerator.label>механическая курица</ABF_Thing_Synstruct_ChemstructGenerator.label>
+  <ABF_Thing_Synstruct_ChemstructGenerator.description>Неинициализированная механическая курица — предназначена для получения химкапсул из которых впоследствии можно синтезировать нейтроамин или химтопливо. Для его работы требуются жиры и соединения, полученные из мяса, и их нельзя заряжать.</ABF_Thing_Synstruct_ChemstructGenerator.description>
+
+
+  <!-- Non-Manufacturable, only generated via Razorstruct shell, so inherit only from the Generator Base. -->
+
+  <ABF_Thing_Synstruct_RazorstructGenerator.label>бритва</ABF_Thing_Synstruct_RazorstructGenerator.label>
+  <ABF_Thing_Synstruct_RazorstructGenerator.description>Бритва — предназначен для эффективного уничтожения целей. Рой бритв имеет ограниченный срок службы их аккумуляторов, ничего не даёт при уничтожении и атакуют всё, что не является бритвой.</ABF_Thing_Synstruct_RazorstructGenerator.description>
+
+
+</LanguageData>

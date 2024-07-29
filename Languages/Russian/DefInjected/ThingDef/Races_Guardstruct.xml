@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Thing_Synstruct_Guardstruct.label>механические волки</ABF_Thing_Synstruct_Guardstruct.label>
+  <ABF_Thing_Synstruct_Guardstruct.description>Механические волки, уникальны во многих отношениях — программируемые на широкий спектр задач как военного, так и гражданского характера, хорошо вооружены и в то же время обезоруживающе ласковы, способны заряжаться и реагировать на команды. Они часто служат в качестве компаньонов, грозных разведчиков или даже сапёров.\n\nСвоей смертоносностью, они безусловно, заслужили свою репутацию, которую они, похоже, стремятся сохранить.</ABF_Thing_Synstruct_Guardstruct.description>
+  <ABF_Thing_Synstruct_Guardstruct.tools.0.label>левый коготь</ABF_Thing_Synstruct_Guardstruct.tools.0.label>
+  <ABF_Thing_Synstruct_Guardstruct.tools.1.label>правый коготь</ABF_Thing_Synstruct_Guardstruct.tools.1.label>
+  <ABF_Thing_Synstruct_Guardstruct.tools.3.label>голова</ABF_Thing_Synstruct_Guardstruct.tools.3.label>
+
+
+</LanguageData>

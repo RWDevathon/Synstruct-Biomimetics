@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Recipe_Synstruct_MakeNutritionBlocksFromSolutions.label>получить оргкапсулу</ABF_Recipe_Synstruct_MakeNutritionBlocksFromSolutions.label>
+  <ABF_Recipe_Synstruct_MakeNutritionBlocksFromSolutions.description>Получить партию оргкапсул путём стабилизации орграствора. Это трудоёмкая задача.</ABF_Recipe_Synstruct_MakeNutritionBlocksFromSolutions.description>
+  <ABF_Recipe_Synstruct_MakeNutritionBlocksFromSolutions.jobString>Производит оргкапсулы.</ABF_Recipe_Synstruct_MakeNutritionBlocksFromSolutions.jobString>
+
+
+</LanguageData>

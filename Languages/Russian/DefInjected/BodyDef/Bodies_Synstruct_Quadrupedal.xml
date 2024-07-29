@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Body_Synstruct_QuadrupedalBiomimetic.label>quadrupedal synstruct body</ABF_Body_Synstruct_QuadrupedalBiomimetic.label>
+  <ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.3.customLabel>левый радиатор</ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.3.customLabel>
+  <ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.4.customLabel>правый радиатор</ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.4.customLabel>
+  <ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.6.parts.0.parts.1.customLabel>левый оптический датчик</ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.6.parts.0.parts.1.customLabel>
+  <ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.6.parts.0.parts.2.customLabel>правый оптический датчик</ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.6.parts.0.parts.2.customLabel>
+  <ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.6.parts.0.parts.3.customLabel>левый звуковой датчик</ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.6.parts.0.parts.3.customLabel>
+  <ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.6.parts.0.parts.4.customLabel>правый звуковой датчик</ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.6.parts.0.parts.4.customLabel>
+  <ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.7.customLabel>передняя левая нога</ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.7.customLabel>
+  <ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.7.parts.0.customLabel>передняя левая лапа</ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.7.parts.0.customLabel>
+  <ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.8.customLabel>передняя правая нога</ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.8.customLabel>
+  <ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.8.parts.0.customLabel>передняя правая лапа</ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.8.parts.0.customLabel>
+  <ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.9.customLabel>задняя левая нога</ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.9.customLabel>
+  <ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.9.parts.0.customLabel>задняя левая лапа</ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.9.parts.0.customLabel>
+  <ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.10.customLabel>задняя правая нога</ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.10.customLabel>
+  <ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.10.parts.0.customLabel>задняя правая лапа</ABF_Body_Synstruct_QuadrupedalBiomimetic.corePart.parts.10.parts.0.customLabel>
+
+
+</LanguageData>

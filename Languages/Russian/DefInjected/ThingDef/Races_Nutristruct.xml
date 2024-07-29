@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Thing_Synstruct_Nutristruct.label>механическая корова</ABF_Thing_Synstruct_Nutristruct.label>
+  <ABF_Thing_Synstruct_Nutristruct.description>Механическая корова — предназначена для получения питательного орграствора. Уникальный юнит, редко встречающийся у синтоидов, поскольку они обычно предпочитают заряжаться, а не потреблять пищу. Орграствор, производимый этим устройством, с пугающе долгим сроком хранения и чрезвычайно высоким содержанием питательных веществ, высоко ценится в человеческих обществах. Приобретение подобных юнитов привело к демографическому буму во многих мирах и, как ни странно, к многочисленным войнам.</ABF_Thing_Synstruct_Nutristruct.description>
+  <ABF_Thing_Synstruct_Nutristruct.tools.0.label>голова</ABF_Thing_Synstruct_Nutristruct.tools.0.label>
+
+
+</LanguageData>

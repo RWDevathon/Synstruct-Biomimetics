@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Thing_Synstruct_Chemstruct.label>механическая курица</ABF_Thing_Synstruct_Chemstruct.label>
+  <ABF_Thing_Synstruct_Chemstruct.description>Механическая курица — высокотехнологичный автономный дрон, способный искать и поглощать биологическую материю для переработки в химкапсулы. Химкапсул, впоследствии, можно использовать для производства нейтроамина или химтоплива. Крылья носят чисто косметический характер.\n\nМеханические курицы — плотоядные существа, использующие жиры мяса как для химического расщепления продуктов, так и в качестве топлива для собственного реактора.</ABF_Thing_Synstruct_Chemstruct.description>
+  <ABF_Thing_Synstruct_Chemstruct.tools.0.label>голова</ABF_Thing_Synstruct_Chemstruct.tools.0.label>
+
+
+</LanguageData>

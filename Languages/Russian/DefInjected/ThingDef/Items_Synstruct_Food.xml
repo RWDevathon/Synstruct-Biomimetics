@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ABF_Thing_Synstruct_NutrientSolution.label>орграствор</ABF_Thing_Synstruct_NutrientSolution.label>
+  <ABF_Thing_Synstruct_NutrientSolution.description>Густая высококалорийная кашица с высоким содержанием белка, которая имеет невыразительную медовую консистенцию, и приятный вкус. Этот раствор не стабилизирован, и его необходимо обработать химкапсулами, чтобы достичь его не портящегося состояния.</ABF_Thing_Synstruct_NutrientSolution.description>
+
+  <ABF_Thing_Synstruct_NutrientBlock.label>оргкапсула</ABF_Thing_Synstruct_NutrientBlock.label>
+  <ABF_Thing_Synstruct_NutrientBlock.description>Органическая высококалорийная капсула, богатая белками. Оргкапсула никогда не испортится и полна органических питательных веществ.</ABF_Thing_Synstruct_NutrientBlock.description>
+
+
+</LanguageData>
