@@ -9,7 +9,6 @@
 			<MoveSpeed>4.00</MoveSpeed>
 			<MarketValue>500</MarketValue>
             <Mass>20</Mass>
-            <ABF_Stat_Synstruct_ChargingSpeed>0</ABF_Stat_Synstruct_ChargingSpeed>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_EggLayer">
@@ -34,7 +33,6 @@
 		</tools>
 		<race>
 			<body>ABF_Body_Synstruct_BipedalBiomimetic</body>
-            <baseHungerRate>0.14</baseHungerRate>
 			<baseBodySize>0.3</baseBodySize>
 			<baseHealthScale>0.5</baseHealthScale>
 			<foodType>CarnivoreAnimal</foodType>

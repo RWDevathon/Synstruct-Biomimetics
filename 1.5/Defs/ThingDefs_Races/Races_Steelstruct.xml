@@ -8,7 +8,6 @@
         <statBases>
             <MoveSpeed>2.00</MoveSpeed>
             <MarketValue>600</MarketValue>
-            <ABF_Stat_Synstruct_ChargingSpeed>0</ABF_Stat_Synstruct_ChargingSpeed>
         </statBases>
         <tools>
             <li>

@@ -12,8 +12,7 @@
 			<ArmorRating_Blunt>0.70</ArmorRating_Blunt>
             <ArmorRating_Heat>1</ArmorRating_Heat>
             <IncomingDamageFactor>0.75</IncomingDamageFactor>
-            <ABF_Stat_Synstruct_NutritionalIntakeEfficiency>1</ABF_Stat_Synstruct_NutritionalIntakeEfficiency>
-            <ABF_Stat_Synstruct_ChargingSpeed>2</ABF_Stat_Synstruct_ChargingSpeed>
+            <ABF_Stat_Synstruct_ChargingSpeed>0.66</ABF_Stat_Synstruct_ChargingSpeed>
 		</statBases>
 		<tools>
 			<li>

@@ -10,8 +10,7 @@
 			<MoveSpeed>6.5</MoveSpeed>
 			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
-            <ABF_Stat_Synstruct_NutritionalIntakeEfficiency>1</ABF_Stat_Synstruct_NutritionalIntakeEfficiency>
-            <ABF_Stat_Synstruct_ChargingSpeed>2</ABF_Stat_Synstruct_ChargingSpeed>
+            <ABF_Stat_Synstruct_ChargingSpeed>0.66</ABF_Stat_Synstruct_ChargingSpeed>
             <Mass>80</Mass>
 		</statBases>
 		<tools>
