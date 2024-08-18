@@ -6,6 +6,7 @@
         <label>fully-formed</label>
         <visible>false</visible>
         <milkable>true</milkable>
+        <shearable>true</shearable>
         <reproductive>true</reproductive>
     </LifeStageDef>
 
