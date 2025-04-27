@@ -80,7 +80,7 @@
 			<packAnimal>true</packAnimal>
 			<predator>true</predator>
 			<baseBodySize>1.0</baseBodySize>
-            <baseHungerRate>0.2</baseHungerRate>
+            <baseHungerRate>0.125</baseHungerRate>
 			<baseHealthScale>1.4</baseHealthScale>
 			<nameOnTameChance>1</nameOnTameChance>
 			<leatherDef>Leather_Patch</leatherDef>

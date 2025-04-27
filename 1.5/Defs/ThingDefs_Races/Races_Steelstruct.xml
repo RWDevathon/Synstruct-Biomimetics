@@ -32,7 +32,7 @@
             <packAnimal>true</packAnimal>
             <baseBodySize>1</baseBodySize>
             <baseHealthScale>1</baseHealthScale>
-            <baseHungerRate>3</baseHungerRate>
+            <baseHungerRate>1.875</baseHungerRate>
             <foodType>OmnivoreRoughAnimal</foodType>
             <nameOnTameChance>1</nameOnTameChance>
             <lifeStageAges>
