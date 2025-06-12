@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="ABF_Thing_Synstruct_AnimalBase">
+        <defName>ABF_Thing_Synstruct_Razorstruct</defName>
+        <label>razorstruct</label>
+        <description>A small flying drone with two side-mounted plasteel blades. While not particularly dangerous alone, these drones are rarely ever seen alone. Swarms can shred targets to pieces swiftly.\n\nThese drones have exceedingly barebones IFF sensors, and will attack any non-razorstruct.</description>
+		<statBases>
+			<MarketValue>40</MarketValue>
+			<MoveSpeed>6.20</MoveSpeed>
+			<ComfyTemperatureMin>-200</ComfyTemperatureMin>
+			<ComfyTemperatureMax>200</ComfyTemperatureMax>
+			<Mass>1</Mass>
+		</statBases>
+        <tools>
+            <li>
+                <label>head</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>2</power>
+                <cooldownTime>1.25</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <chanceFactor>0.1</chanceFactor>
+            </li>
+            <li>
+                <label>left wing</label>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>1</cooldownTime>
+                <linkedBodyPartsGroup>ABF_BodyPartGroup_Synstruct_LeftWing</linkedBodyPartsGroup>
+            </li>
+            <li>
+                <label>right wing</label>
+                <capacities>
+                    <li>Cut</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>1</cooldownTime>
+                <linkedBodyPartsGroup>ABF_BodyPartGroup_Synstruct_RightWing</linkedBodyPartsGroup>
+            </li>
+        </tools>
+        <race>
+            <intelligence>ToolUser</intelligence>
+			<body>ABF_Body_Synstruct_Razorstruct</body>
+            <baseBodySize>0.2</baseBodySize>
+			<baseHealthScale>0.4</baseHealthScale>
+			<foodType>None</foodType>
+			<lifeExpectancy>1</lifeExpectancy>
+			<hediffGiverSets Inherit="False">
+				<li>ABF_HediffGiverSet_Synstruct_TemperatureVulnerable</li>
+			</hediffGiverSets>
+            <lifeStageAges>
+                <li>
+                    <def>ABF_LifeStage_Artificial_AnimalComplete</def>
+                    <minAge>0.0</minAge>
+                </li>
+            </lifeStageAges>
+            <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+            <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+            <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+            <deathAction Class="ArtificialBeings.DeathActionProperties_DeadSynstructSwitch">
+                <explosionRadius>0.3</explosionRadius>
+                <damageType>Bomb</damageType>
+                <damageAmount>5</damageAmount>
+                <ignoreThingsOfSameDef>true</ignoreThingsOfSameDef>
+                <destroyCorpse>true</destroyCorpse>
+            </deathAction>
+			<ageGenerationCurve>
+				<points>
+					<li>(0,0)</li>
+					<li>(0.1,100)</li>
+					<li>(0.2,0)</li>
+				</points>
+			</ageGenerationCurve>
+        </race>
+		<tradeTags Inherit="False">
+		</tradeTags>
+		<butcherProducts>
+			<Steel>3</Steel>
+		</butcherProducts>
+		<modExtensions>
+            <li Class="ArtificialBeings.ABF_ArtificialPawnExtension">
+                <blacklistedNeeds>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Hygiene</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
+                    <li MayRequire="Dubwise.DubsBadHygiene">DBHThirst</li>
+                </blacklistedNeeds>
+                <medicineList>
+                    <li>ABF_Thing_Synstruct_RepairStimMinor</li>
+                    <li>ABF_Thing_Synstruct_RepairStim</li>
+                    <li>ABF_Thing_Synstruct_RepairStimUltra</li>
+                </medicineList>
+                <onlyUseRaceRestrictedMedicine>true</onlyUseRaceRestrictedMedicine>
+                <hediffReplacements>
+                    <BloodRot MayRequire="Ludeon.RimWorld.Royalty">ABF_Hediff_Synstruct_CoreLockout</BloodRot>
+                    <Abasia MayRequire="Ludeon.RimWorld.Royalty">ABF_Hediff_Synstruct_CoreLockout</Abasia>
+                </hediffReplacements>
+            </li>
+		</modExtensions>
+    </ThingDef>
+
+    <PawnKindDef ParentName="ABF_PawnKind_Synstruct_AnimalBase">
+        <defName>ABF_PawnKind_Synstruct_Razorstruct_Eradicator</defName>
+        <label>razorstruct</label>
+        <race>ABF_Thing_Synstruct_Razorstruct</race>
+        <combatPower>10</combatPower>
+        <canArriveManhunter>false</canArriveManhunter>
+        <ecoSystemWeight>9999</ecoSystemWeight>
+        <defaultFactionType IsNull="True"/>
+        <forceDeathOnDowned>true</forceDeathOnDowned>
+        <startingHediffs>
+            <li>
+                <def>ABF_Hediff_Synstruct_RemainingCharge</def>
+                <severity>0.1</severity>
+                <chance>1</chance>
+            </li>
+        </startingHediffs>
+        <lifeStages>
+            <li>
+                <bodyGraphicData>
+                <texPath>Things/Pawns/Animals/Razorstruct/Razorstruct</texPath>
+                <drawSize>1.5</drawSize>
+                <shadowData>
+                    <volume>(0.25, 0.3, 0.25)</volume>
+                    <offset>(0,0,-0.15)</offset>
+                </shadowData>
+                </bodyGraphicData>
+            </li>
+        </lifeStages>
+    </PawnKindDef>
+
+</Defs>

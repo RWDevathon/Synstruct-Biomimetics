@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>ABF_ResearchProject_Synstruct_Biomimetics</defName>
+		<label>biomimetics</label>
+		<tab>ABF_ResearchTab_Synstruct_Primary</tab>
+		<description>Assemble farm animal analogues that suit the needs of synstruct societies.</description>
+		<baseCost>1600</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+            <li>ABF_ResearchProject_Synstruct_Infrastructure</li>
+        </prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2.5</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>
