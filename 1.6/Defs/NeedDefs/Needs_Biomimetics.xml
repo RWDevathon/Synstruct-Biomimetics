@@ -31,4 +31,19 @@
         </modExtensions>
     </NeedDef>
 
+    <NeedDef>
+        <defName>ABF_Need_Synstruct_Stone</defName>
+        <needClass>ArtificialBeings.Need_Artificial</needClass>
+        <label>stone</label>
+        <description>Stone, either in chunks or bricks, is necessary for this creature to remain optimally productive. If it is at zero, the creature will produce resources half as quickly until it is replenished. Chunks retain far more trace minerals than bricks, and are thus more efficient. Steel or mechanoid slag can also be consumed, which will generate approximately as much steel as they would if smelted normally.</description>
+        <listPriority>364</listPriority>
+        <fallPerDay>0.25</fallPerDay>
+        <showForCaravanMembers>true</showForCaravanMembers>
+        <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+        <modExtensions>
+            <li Class="ArtificialBeings.ABF_ArtificialNeedExtension">
+            </li>
+        </modExtensions>
+    </NeedDef>
+
 </Defs>

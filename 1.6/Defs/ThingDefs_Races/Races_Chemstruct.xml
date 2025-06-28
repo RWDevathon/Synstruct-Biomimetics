@@ -17,9 +17,10 @@
                 <resourceIntervalDays>1.5</resourceIntervalDays>
                 <resourceCount>1</resourceCount>
                 <resourceDef>ABF_Thing_Synstruct_ChemicalCapsule</resourceDef>
-                <pauseOnAnyEmpty>
-                    <li>ABF_Need_Synstruct_Protein</li>
-                </pauseOnAnyEmpty>
+                <affectOutputFactorOnEmpty>
+                    <li><key>ABF_Need_Synstruct_Protein</key><value>0</value></li>
+                    <li><key>ABF_Need_Synstruct_Energy</key><value>0</value></li>
+                </affectOutputFactorOnEmpty>
 			</li>
 		</comps>
 		<tools>

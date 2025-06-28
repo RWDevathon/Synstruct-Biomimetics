@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <!-- Kibble should replenish both the protein and biomaterial needs -->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="Kibble"]</xpath>
+        <value>
+            <li Class="ArtificialBeings.ABF_NeedFulfillerExtension">
+                <needOffsetRelations>
+                    <li><key>ABF_Need_Synstruct_Biomaterial</key><value>0.05</value></li>
+                    <li><key>ABF_Need_Synstruct_Protein</key><value>0.05</value></li>
+                </needOffsetRelations>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- Hay and fungus should replenish the biomaterial need -->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="Hay" or defName="RawFungus"]</xpath>
+        <value>
+            <li Class="ArtificialBeings.ABF_NeedFulfillerExtension">
+                <needOffsetRelations>
+                    <li><key>ABF_Need_Synstruct_Biomaterial</key><value>0.05</value></li>
+                </needOffsetRelations>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- Stone chunks should replenish the stone need. Yes I know this really should be done by C#. Bug me and it'll happen eventually. Or just add compatibility yourself. It's right here. -->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="ChunkMarble" or defName="ChunkSandstone" or defName="ChunkGranite" or defName="ChunkLimestone" or defName="ChunkSlate"]</xpath>
+        <value>
+            <li Class="ArtificialBeings.ABF_NeedFulfillerExtension">
+                <needOffsetRelations>
+                    <li><key>ABF_Need_Synstruct_Stone</key><value>1</value></li>
+                </needOffsetRelations>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- Steel and mechanoid slag should replenish the stone need. I couldn't think of a more fitting name for the need. -->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="ChunkSlagSteel" or defName="ChunkMechanoidSlag"]</xpath>
+        <value>
+            <li Class="ArtificialBeings.ABF_NeedFulfillerExtension">
+                <needOffsetRelations>
+                    <li><key>ABF_Need_Synstruct_Stone</key><value>2</value></li>
+                </needOffsetRelations>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- Stone bricks should replenish the stone need, but at a loss compared to chunks. Yes I know this really should be done by C#. Bug me and it'll happen eventually. Or just add compatibility yourself. It's right here. -->
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>Defs/ThingDef[defName="BlocksMarble" or defName="BlocksSandstone" or defName="BlocksGranite" or defName="BlocksLimestone" or defName="BlocksSlate"]</xpath>
+        <value>
+            <li Class="ArtificialBeings.ABF_NeedFulfillerExtension">
+                <needOffsetRelations>
+                    <li><key>ABF_Need_Synstruct_Stone</key><value>0.04</value></li>
+                </needOffsetRelations>
+            </li>
+        </value>
+    </Operation>
+
+</Patch>

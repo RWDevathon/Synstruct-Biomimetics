@@ -4,7 +4,7 @@
     <ThingDef ParentName="ABF_Thing_Synstruct_AnimalBase">
         <defName>ABF_Thing_Synstruct_Steelstruct</defName>
         <label>steelstruct</label>
-        <description>These drones are ubiquitous in synstruct societies on life-bearing worlds thanks to their specialized machinery capable of extracting minerals from organic material in order to refine and forge into steel. Their ravenous consumption of said organic matter has led to planet-wide bans in many systems - and to many worlds becoming nearly lifeless by roaming synstruct "pastoralists" who take "herds" of these creatures from planet to planet.</description>
+        <description>These drones are ubiquitous in synstruct societies thanks to their internal, optimized smelters. Steelstructs are capable of extracting valuable minerals from the trace, low quality amounts to be found in stone and refining it into standard grade steel. Specialized filters allow them to ambiently capture minerals from the environment - through the air, random bits of trash, chunks of earth, or whatever happens to be nearby that won't be missed - which allows them to maintain production even when sizeable chunks or piles of stone brick cannot be acquired, albeit at a steep loss in production rate. If given access to steel slag, they can smelt it down at the same level of efficiency, effectively acting as mobile refineries. These qualities make them incredibly stable, consistent sources of steel that can be relied on. It is no wonder, then, that so-called "pastoralist" societies of synstructs exist that "herd" vast numbers of these units from system to system, ravaging worlds in harvests of metal - many worlds have gone lifeless after these societies pillage and leave nothing in return.\n\nA steelstruct can process roughly one stone chunk per day, or steel slag every two days.</description>
         <statBases>
             <MoveSpeed>2.00</MoveSpeed>
             <MarketValue>600</MarketValue>
@@ -27,9 +27,10 @@
                 <resourceIntervalDays>10</resourceIntervalDays>
                 <resourceCount>150</resourceCount>
                 <resourceDef>Steel</resourceDef>
-                <pauseOnAnyEmpty>
-                    <li>ABF_Need_Synstruct_Biomaterial</li>
-                </pauseOnAnyEmpty>
+                <affectOutputFactorOnEmpty>
+                    <li><key>ABF_Need_Synstruct_Stone</key><value>0.5</value></li>
+                    <li><key>ABF_Need_Synstruct_Energy</key><value>0</value></li>
+                </affectOutputFactorOnEmpty>
 			</li>
         </comps>
         <race>
@@ -75,7 +76,7 @@
                 <artificialNeeds>
                     <li><key>ABF_Need_Synstruct_Coolant</key><value>2</value></li>
                     <li><key>ABF_Need_Synstruct_Energy</key><value>100</value></li>
-                    <li><key>ABF_Need_Synstruct_Biomaterial</key><value>2</value></li>
+                    <li><key>ABF_Need_Synstruct_Stone</key><value>4</value></li>
                 </artificialNeeds>
                 <medicineList>
                     <li>ABF_Thing_Synstruct_RepairStimMinor</li>
