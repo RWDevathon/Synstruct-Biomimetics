@@ -27,9 +27,9 @@
                 <resourceIntervalDays>10</resourceIntervalDays>
                 <resourceCount>150</resourceCount>
                 <resourceDef>Steel</resourceDef>
-                <!-- <pauseOnAnyEmpty>
-                    <li></li>
-                </pauseOnAnyEmpty> -->
+                <pauseOnAnyEmpty>
+                    <li>ABF_Need_Synstruct_Biomaterial</li>
+                </pauseOnAnyEmpty>
 			</li>
         </comps>
         <race>
@@ -75,6 +75,7 @@
                 <artificialNeeds>
                     <li><key>ABF_Need_Synstruct_Coolant</key><value>2</value></li>
                     <li><key>ABF_Need_Synstruct_Energy</key><value>100</value></li>
+                    <li><key>ABF_Need_Synstruct_Biomaterial</key><value>2</value></li>
                 </artificialNeeds>
                 <medicineList>
                     <li>ABF_Thing_Synstruct_RepairStimMinor</li>

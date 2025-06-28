@@ -4,7 +4,7 @@
     <ThingDef ParentName="ABF_Thing_Synstruct_AnimalBase">
         <defName>ABF_Thing_Synstruct_Nutristruct</defName>
         <label>nutristruct</label>
-        <description>A lumbering synstruct drone designed to maximize nutrition from raw organic matter for biological entities to consume. Unique among biomimetics, this unit is rarely found in the possession of a synstruct, given that they generally prefer to charge than consume food. With an almost disturbingly long shelf-life and extremely high nutritive content, the nutrient solution this unit produces is highly prized among human societies. Acquisition of units like this have led to population booms on many worlds - and curiously enough by extension, many wars.</description>
+        <description>A lumbering synstruct drone designed to maximize nutrition from raw organic matter for biological entities to consume. Unique among biomimetics, this unit is rarely found in the possession of a synstruct due to having little use for mass food production. With an almost disturbingly long shelf-life and extremely high nutritive content, the nutrient solution this unit produces is highly prized among human societies. Acquisition of units like this have led to population booms on many worlds - and curiously enough by extension, many wars.</description>
         <statBases>
             <MoveSpeed>2.00</MoveSpeed>
             <MarketValue>600</MarketValue>
@@ -16,9 +16,9 @@
                 <resourceIntervalDays>1</resourceIntervalDays>
                 <resourceCount>42</resourceCount>
                 <resourceDef>ABF_Thing_Synstruct_NutrientSolution</resourceDef>
-                <!-- <pauseOnAnyEmpty>
-                    <li></li>
-                </pauseOnAnyEmpty> -->
+                <pauseOnAnyEmpty>
+                    <li>ABF_Need_Synstruct_Biomaterial</li>
+                </pauseOnAnyEmpty>
 			</li>
         </comps>
         <tools>
@@ -65,7 +65,8 @@
                 </blacklistedNeeds>
                 <artificialNeeds>
                     <li><key>ABF_Need_Synstruct_Coolant</key><value>2</value></li>
-                    <li><key>ABF_Need_Synstruct_Energy</key><value></value></li>
+                    <li><key>ABF_Need_Synstruct_Energy</key><value>800</value></li>
+                    <li><key>ABF_Need_Synstruct_Biomaterial</key><value>1.2</value></li>
                 </artificialNeeds>
                 <medicineList>
                     <li>ABF_Thing_Synstruct_RepairStimMinor</li>

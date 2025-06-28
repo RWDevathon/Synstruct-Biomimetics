@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+    <!-- Nutrient solution and related products -->
+
     <ThingDef ParentName="OrganicProductBase">
         <defName>ABF_Thing_Synstruct_NutrientSolution</defName>
         <label>nutrient solution</label>
