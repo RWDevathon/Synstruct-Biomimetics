@@ -8,6 +8,8 @@
         <statBases>
             <MoveSpeed>2.00</MoveSpeed>
             <MarketValue>600</MarketValue>
+            <ABF_Stat_Synstruct_MaxEnergy>800</ABF_Stat_Synstruct_MaxEnergy>
+            <ABF_Stat_Synstruct_EnergyConsumption>800</ABF_Stat_Synstruct_EnergyConsumption>
         </statBases>
         <tools>
             <li>
@@ -21,19 +23,20 @@
             </li>
         </tools>
         <comps>
-            <li Class="CompProperties_Shearable">
-                <woolDef>Steel</woolDef>
-                <shearIntervalDays>10</shearIntervalDays>
-                <woolAmount>150</woolAmount>
-            </li>
+			<li Class="ArtificialBeings.CompProperties_ResourceProducerArtificial">
+                <resourceIntervalDays>10</resourceIntervalDays>
+                <resourceCount>150</resourceCount>
+                <resourceDef>Steel</resourceDef>
+                <!-- <pauseOnAnyEmpty>
+                    <li></li>
+                </pauseOnAnyEmpty> -->
+			</li>
         </comps>
         <race>
             <body>ABF_Body_Synstruct_QuadrupedalBiomimetic</body>
             <packAnimal>true</packAnimal>
             <baseBodySize>1</baseBodySize>
             <baseHealthScale>1</baseHealthScale>
-            <baseHungerRate>1.875</baseHungerRate>
-            <foodType>OmnivoreRoughAnimal</foodType>
             <nameOnTameChance>1</nameOnTameChance>
             <lifeStageAges>
                 <li>
@@ -71,6 +74,7 @@
                 </blacklistedNeeds>
                 <artificialNeeds>
                     <li><key>ABF_Need_Synstruct_Coolant</key><value>2</value></li>
+                    <li><key>ABF_Need_Synstruct_Energy</key><value>100</value></li>
                 </artificialNeeds>
                 <medicineList>
                     <li>ABF_Thing_Synstruct_RepairStimMinor</li>

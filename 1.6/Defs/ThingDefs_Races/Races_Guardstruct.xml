@@ -10,7 +10,8 @@
 			<MoveSpeed>6.5</MoveSpeed>
 			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.45</ArmorRating_Sharp>
-            <ABF_Stat_Synstruct_ChargingSpeed>0.66</ABF_Stat_Synstruct_ChargingSpeed>
+            <ABF_Stat_Synstruct_MaxEnergy>2000</ABF_Stat_Synstruct_MaxEnergy>
+            <ABF_Stat_Synstruct_EnergyConsumption>200</ABF_Stat_Synstruct_EnergyConsumption>
             <Mass>80</Mass>
 		</statBases>
 		<tools>
@@ -78,9 +79,7 @@
 		<race>
 			<body>ABF_Body_Synstruct_QuadrupedalBiomimetic</body>
 			<packAnimal>true</packAnimal>
-			<predator>true</predator>
 			<baseBodySize>1.0</baseBodySize>
-            <baseHungerRate>0.125</baseHungerRate>
 			<baseHealthScale>1.4</baseHealthScale>
 			<nameOnTameChance>1</nameOnTameChance>
 			<leatherDef>Leather_Patch</leatherDef>
@@ -117,6 +116,7 @@
                 <artificialNeeds>
                     <li><key>ABF_Need_Synstruct_Coolant</key><value>1</value></li>
                     <li><key>ABF_Need_Synstruct_Lubricant</key><value>2</value></li>
+                    <li><key>ABF_Need_Synstruct_Energy</key><value>100</value></li>
                 </artificialNeeds>
                 <medicineList>
                     <li>ABF_Thing_Synstruct_RepairStimMinor</li>

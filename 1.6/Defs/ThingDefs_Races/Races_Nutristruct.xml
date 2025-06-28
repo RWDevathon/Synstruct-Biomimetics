@@ -8,14 +8,18 @@
         <statBases>
             <MoveSpeed>2.00</MoveSpeed>
             <MarketValue>600</MarketValue>
+            <ABF_Stat_Synstruct_MaxEnergy>800</ABF_Stat_Synstruct_MaxEnergy>
+            <ABF_Stat_Synstruct_EnergyConsumption>800</ABF_Stat_Synstruct_EnergyConsumption>
         </statBases>
         <comps>
-            <li Class="CompProperties_Milkable">
-                <milkDef>ABF_Thing_Synstruct_NutrientSolution</milkDef>
-                <milkIntervalDays>1</milkIntervalDays>
-                <milkAmount>42</milkAmount>
-                <milkFemaleOnly>false</milkFemaleOnly>
-            </li>
+			<li Class="ArtificialBeings.CompProperties_ResourceProducerArtificial">
+                <resourceIntervalDays>1</resourceIntervalDays>
+                <resourceCount>42</resourceCount>
+                <resourceDef>ABF_Thing_Synstruct_NutrientSolution</resourceDef>
+                <!-- <pauseOnAnyEmpty>
+                    <li></li>
+                </pauseOnAnyEmpty> -->
+			</li>
         </comps>
         <tools>
             <li>
@@ -33,9 +37,7 @@
             <packAnimal>true</packAnimal>
             <baseBodySize>2.4</baseBodySize>
             <baseHealthScale>1</baseHealthScale>
-            <baseHungerRate>0.535</baseHungerRate> <!-- Cows have a hunger rate of 0.535, copy that -->
             <nameOnTameChance>1</nameOnTameChance>
-			<foodType>VegetableOrFruit, Meat, Corpse, Seed, Plant, Fungus</foodType>
             <lifeStageAges>
                 <li>
                     <def>ABF_LifeStage_Artificial_AnimalComplete</def>
@@ -63,6 +65,7 @@
                 </blacklistedNeeds>
                 <artificialNeeds>
                     <li><key>ABF_Need_Synstruct_Coolant</key><value>2</value></li>
+                    <li><key>ABF_Need_Synstruct_Energy</key><value></value></li>
                 </artificialNeeds>
                 <medicineList>
                     <li>ABF_Thing_Synstruct_RepairStimMinor</li>

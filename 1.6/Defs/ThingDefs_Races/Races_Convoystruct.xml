@@ -12,7 +12,8 @@
 			<ArmorRating_Blunt>0.70</ArmorRating_Blunt>
             <ArmorRating_Heat>1</ArmorRating_Heat>
             <IncomingDamageFactor>0.75</IncomingDamageFactor>
-            <ABF_Stat_Synstruct_ChargingSpeed>0.66</ABF_Stat_Synstruct_ChargingSpeed>
+            <ABF_Stat_Synstruct_MaxEnergy>2000</ABF_Stat_Synstruct_MaxEnergy>
+            <ABF_Stat_Synstruct_EnergyConsumption>100</ABF_Stat_Synstruct_EnergyConsumption>
 		</statBases>
 		<tools>
 			<li>
@@ -30,7 +31,6 @@
 			<packAnimal>true</packAnimal>
 			<baseBodySize>2.4</baseBodySize>
 			<baseHealthScale>2</baseHealthScale>
-            <baseHungerRate>0.15625</baseHungerRate>
 			<nameOnTameChance>1</nameOnTameChance>
 			<trainability>Advanced</trainability>
 			<lifeStageAges>
@@ -62,6 +62,7 @@
                 </blacklistedNeeds>
                 <artificialNeeds>
                     <li><key>ABF_Need_Synstruct_Coolant</key><value>0.5</value></li>
+                    <li><key>ABF_Need_Synstruct_Energy</key><value>100</value></li>
                 </artificialNeeds>
                 <medicineList>
                     <li>ABF_Thing_Synstruct_RepairStimMinor</li>
