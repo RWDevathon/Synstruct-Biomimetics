@@ -7,7 +7,7 @@
         <label>biomaterial</label>
         <description>Biomaterial is necessary for this creature to remain productive. If it is at zero, the creature will stop producing resources until it is replenished. Generally, replenishing this will require light processing of organic materials to make suitably prepared ingredients.</description>
         <listPriority>362</listPriority>
-        <fallPerDay>1</fallPerDay>
+        <fallPerDay>0.5</fallPerDay>
         <showForCaravanMembers>true</showForCaravanMembers>
         <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
         <modExtensions>

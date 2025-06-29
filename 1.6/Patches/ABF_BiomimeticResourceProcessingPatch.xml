@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-    <!-- Kibble should replenish both the protein and biomaterial needs -->
+    <!-- Kibble should replenish the protein need. -->
     <Operation Class="PatchOperationAddModExtension">
         <xpath>Defs/ThingDef[defName="Kibble"]</xpath>
         <value>
             <li Class="ArtificialBeings.ABF_NeedFulfillerExtension">
                 <needOffsetRelations>
-                    <li><key>ABF_Need_Synstruct_Biomaterial</key><value>0.05</value></li>
                     <li><key>ABF_Need_Synstruct_Protein</key><value>0.05</value></li>
-                </needOffsetRelations>
-            </li>
-        </value>
-    </Operation>
-
-    <!-- Hay and fungus should replenish the biomaterial need -->
-    <Operation Class="PatchOperationAddModExtension">
-        <xpath>Defs/ThingDef[defName="Hay" or defName="RawFungus"]</xpath>
-        <value>
-            <li Class="ArtificialBeings.ABF_NeedFulfillerExtension">
-                <needOffsetRelations>
-                    <li><key>ABF_Need_Synstruct_Biomaterial</key><value>0.05</value></li>
                 </needOffsetRelations>
             </li>
         </value>

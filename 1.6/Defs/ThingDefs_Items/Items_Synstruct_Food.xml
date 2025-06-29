@@ -12,11 +12,11 @@
         </graphicData>
         <socialPropernessMatters>true</socialPropernessMatters>
         <statBases>
-            <MarketValue>2.2</MarketValue>
+            <MarketValue>1.9</MarketValue>
             <Mass>0.045</Mass>
             <MaxHitPoints>60</MaxHitPoints>
-            <Flammability>0.1</Flammability>
-            <Nutrition>0.1</Nutrition>
+            <Flammability>0.2</Flammability>
+            <Nutrition>0.05</Nutrition>
             <FoodPoisonChanceFixedHuman>0.01</FoodPoisonChanceFixedHuman>
         </statBases>
         <comps>
@@ -47,11 +47,11 @@
         </graphicData>
         <socialPropernessMatters>true</socialPropernessMatters>
         <statBases>
-            <MarketValue>10</MarketValue>
+            <MarketValue>2.2</MarketValue>
             <Mass>0.045</Mass>
             <MaxHitPoints>60</MaxHitPoints>
             <Flammability>0.05</Flammability>
-            <Nutrition>0.2</Nutrition>
+            <Nutrition>0.1</Nutrition>
             <FoodPoisonChanceFixedHuman>0</FoodPoisonChanceFixedHuman>
         </statBases>
         <ingestible>
@@ -102,6 +102,100 @@
 	    <recipeUsers>
             <li>BiofuelRefinery</li>
             <li>DrugLab</li>
+        </recipeUsers>
+	</RecipeDef>
+
+    <!-- Vegefodder is for nutristructs, and is not a food itself. -->
+
+    <ThingDef>
+        <defName>ABF_Thing_Synstruct_Vegefodder</defName>
+        <label>vegefodder</label>
+        <description>An extremely dense fodder made from plant matter specifically designed for consumption by nutristructs to be processed under exacting standards.</description>
+        <category>Item</category>
+        <thingClass>ThingWithComps</thingClass>
+        <drawerType>MapMeshOnly</drawerType>
+        <useHitPoints>true</useHitPoints>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <selectable>true</selectable>
+        <stackLimit>75</stackLimit>
+        <tickerType>Rare</tickerType>
+        <alwaysHaulable>true</alwaysHaulable>
+        <pathCost>14</pathCost>
+        <allowedArchonexusCount>400</allowedArchonexusCount>
+        <resourceReadoutPriority>Last</resourceReadoutPriority>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <graphicData>
+            <texPath>Things/Item/Resource/PlantFoodRaw/Hay</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>60</MaxHitPoints>
+            <DeteriorationRate>6</DeteriorationRate>
+            <Mass>0.014</Mass>
+            <Flammability>1</Flammability>
+            <Beauty>-1</Beauty>
+            <MarketValue>0.6</MarketValue>
+            <WorkToMake>100</WorkToMake>
+        </statBases>
+        <thingCategories>
+            <li>PlantMatter</li>
+        </thingCategories>
+        <comps>
+            <li Class="CompProperties_Forbiddable"/>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>60</daysToRotStart>
+                <rotDestroys>true</rotDestroys>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="ArtificialBeings.ABF_NeedFulfillerExtension">
+                <needOffsetRelations>
+                    <li><key>ABF_Need_Synstruct_Biomaterial</key><value>1</value></li>
+                </needOffsetRelations>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+	<RecipeDef>
+		<defName>ABF_Recipe_Synstruct_MakeVegefodder</defName>
+		<label>make vegefodder</label>
+		<description>Take vegetative matter and prepare fodder for nutristructs from it.</description>
+		<jobString>Making vegefodder.</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>300</workAmount>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+            <li>
+                <filter>
+                    <customSummary>greens</customSummary>
+                    <categories>
+                        <li>PlantFoodRaw</li>
+                    </categories>
+                    <thingDefs>
+                        <li>Hay</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+		</ingredients>
+        <products>
+            <ABF_Thing_Synstruct_Vegefodder>1</ABF_Thing_Synstruct_Vegefodder>
+        </products>
+        <fixedIngredientFilter>
+            <categories>
+                <li>PlantFoodRaw</li>
+            </categories>
+            <thingDefs>
+                <li>Hay</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <workSkill>Cooking</workSkill>
+	    <recipeUsers>
+            <li>ButcherSpot</li>
+            <li>TableButcher</li>
         </recipeUsers>
 	</RecipeDef>
 

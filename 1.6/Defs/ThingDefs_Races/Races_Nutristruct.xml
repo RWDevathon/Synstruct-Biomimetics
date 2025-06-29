@@ -67,7 +67,7 @@
                 <artificialNeeds>
                     <li><key>ABF_Need_Synstruct_Coolant</key><value>2</value></li>
                     <li><key>ABF_Need_Synstruct_Energy</key><value>800</value></li>
-                    <li><key>ABF_Need_Synstruct_Biomaterial</key><value>1.2</value></li>
+                    <li><key>ABF_Need_Synstruct_Biomaterial</key><value>2</value></li>
                 </artificialNeeds>
                 <medicineList>
                     <li>ABF_Thing_Synstruct_RepairStimMinor</li>
