@@ -61,8 +61,15 @@
                     <li MayRequire="Dubwise.DubsBadHygiene">DBHThirst</li>
                 </blacklistedNeeds>
                 <artificialNeeds>
-                    <li><key>ABF_Need_Synstruct_Coolant</key><value>0.5</value></li>
-                    <li><key>ABF_Need_Synstruct_Energy</key><value>100</value></li>
+                    <li>
+                        <key>ABF_Need_Synstruct_Coolant</key>
+                        <value>
+                            <maximumCapacity>6</maximumCapacity>
+                            <fallRatePerDay>0.05</fallRatePerDay>
+                            <fallRateIsPercentage>false</fallRateIsPercentage>
+                        </value>
+                    </li>
+                    <li><key>ABF_Need_Synstruct_Energy</key><value></value></li>
                 </artificialNeeds>
                 <medicineList>
                     <li>ABF_Thing_Synstruct_RepairStimMinor</li>

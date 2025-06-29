@@ -65,9 +65,23 @@
                     <li MayRequire="Dubwise.DubsBadHygiene">Bladder</li>
                 </blacklistedNeeds>
                 <artificialNeeds>
-                    <li><key>ABF_Need_Synstruct_Coolant</key><value>2</value></li>
-                    <li><key>ABF_Need_Synstruct_Energy</key><value>800</value></li>
-                    <li><key>ABF_Need_Synstruct_Biomaterial</key><value>2</value></li>
+                    <li>
+                        <key>ABF_Need_Synstruct_Coolant</key>
+                        <value>
+                            <maximumCapacity>6</maximumCapacity>
+                            <fallRatePerDay>0.05</fallRatePerDay>
+                            <fallRateIsPercentage>false</fallRateIsPercentage>
+                        </value>
+                    </li>
+                    <li>
+                        <key>ABF_Need_Synstruct_Biomaterial</key>
+                        <value>
+                            <maximumCapacity>4</maximumCapacity>
+                            <fallRatePerDay>1</fallRatePerDay>
+                            <fallRateIsPercentage>false</fallRateIsPercentage>
+                        </value>
+                    </li>
+                    <li><key>ABF_Need_Synstruct_Energy</key><value></value></li>
                 </artificialNeeds>
                 <medicineList>
                     <li>ABF_Thing_Synstruct_RepairStimMinor</li>
