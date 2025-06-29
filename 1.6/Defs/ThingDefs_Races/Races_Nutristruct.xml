@@ -9,7 +9,7 @@
             <MoveSpeed>2.00</MoveSpeed>
             <MarketValue>600</MarketValue>
             <ABF_Stat_Synstruct_MaxEnergy>800</ABF_Stat_Synstruct_MaxEnergy>
-            <ABF_Stat_Synstruct_EnergyConsumption>800</ABF_Stat_Synstruct_EnergyConsumption>
+            <ABF_Stat_Synstruct_EnergyConsumption>400</ABF_Stat_Synstruct_EnergyConsumption>
         </statBases>
         <comps>
 			<li Class="ArtificialBeings.CompProperties_ResourceProducerArtificial">
