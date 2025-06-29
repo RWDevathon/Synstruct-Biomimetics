@@ -14,7 +14,7 @@
         <comps>
 			<li Class="ArtificialBeings.CompProperties_ResourceProducerArtificial">
                 <resourceIntervalDays>1</resourceIntervalDays>
-                <resourceCount>42</resourceCount>
+                <resourceCount>20</resourceCount>
                 <resourceDef>ABF_Thing_Synstruct_NutrientSolution</resourceDef>
                 <affectOutputFactorOnEmpty>
                     <li><key>ABF_Need_Synstruct_Biomaterial</key><value>0</value></li>

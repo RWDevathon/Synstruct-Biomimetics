@@ -6,17 +6,17 @@
     <ThingDef ParentName="OrganicProductBase">
         <defName>ABF_Thing_Synstruct_NutrientSolution</defName>
         <label>nutrient solution</label>
-        <description>A thick slurry of high protein and high calorie substances which has a vaguely honey-like consistency, albeit with a blander taste that is neither offensive nor sweet. This solution is unstabilized, and must be treated with chemical capsules to achieve its notoriously non-spoiling state.</description>
+        <description>A thick slurry of high calorie substances which has a vaguely honey-like consistency, albeit with a blander taste that is neither offensive nor sweet. This solution is unstabilized, and must be treated with chemical capsules to achieve its notoriously non-spoiling state.</description>
         <graphicData>
             <texPath>Things/Items/AnimalProducts/NutrientSolution</texPath>
         </graphicData>
         <socialPropernessMatters>true</socialPropernessMatters>
         <statBases>
-            <MarketValue>1.9</MarketValue>
+            <MarketValue>2.2</MarketValue>
             <Mass>0.045</Mass>
             <MaxHitPoints>60</MaxHitPoints>
             <Flammability>0.2</Flammability>
-            <Nutrition>0.05</Nutrition>
+            <Nutrition>0.1</Nutrition>
             <FoodPoisonChanceFixedHuman>0.01</FoodPoisonChanceFixedHuman>
         </statBases>
         <comps>
@@ -47,11 +47,11 @@
         </graphicData>
         <socialPropernessMatters>true</socialPropernessMatters>
         <statBases>
-            <MarketValue>2.2</MarketValue>
+            <MarketValue>2.6</MarketValue>
             <Mass>0.045</Mass>
             <MaxHitPoints>60</MaxHitPoints>
             <Flammability>0.05</Flammability>
-            <Nutrition>0.1</Nutrition>
+            <Nutrition>0.15</Nutrition>
             <FoodPoisonChanceFixedHuman>0</FoodPoisonChanceFixedHuman>
         </statBases>
         <ingestible>
@@ -117,7 +117,7 @@
         <useHitPoints>true</useHitPoints>
         <healthAffectsPrice>false</healthAffectsPrice>
         <selectable>true</selectable>
-        <stackLimit>75</stackLimit>
+        <stackLimit>100</stackLimit>
         <tickerType>Rare</tickerType>
         <alwaysHaulable>true</alwaysHaulable>
         <pathCost>14</pathCost>
