@@ -26,6 +26,7 @@
         <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
         <modExtensions>
             <li Class="ArtificialBeings.ABF_ArtificialNeedExtension">
+                <unitsLabel>nutrition</unitsLabel>
             </li>
         </modExtensions>
     </NeedDef>
@@ -40,6 +41,7 @@
         <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
         <modExtensions>
             <li Class="ArtificialBeings.ABF_ArtificialNeedExtension">
+                <unitsLabel>chunks</unitsLabel>
             </li>
         </modExtensions>
     </NeedDef>
