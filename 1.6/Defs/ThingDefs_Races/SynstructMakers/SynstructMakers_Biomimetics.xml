@@ -113,8 +113,8 @@
             <researchPrerequisite>ABF_ResearchProject_Synstruct_Biomimetics</researchPrerequisite>
         </recipeMaker>
         <costList>
-            <Steel>40</Steel>
-            <ComponentIndustrial>4</ComponentIndustrial>
+            <Steel>120</Steel>
+            <ComponentIndustrial>16</ComponentIndustrial>
         </costList>
         <comps>
             <li Class="ArtificialBeings.CompProperties_PawnSpawner">

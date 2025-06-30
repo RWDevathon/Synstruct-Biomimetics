@@ -4,18 +4,18 @@
 	<ThingDef ParentName="ABF_Thing_Synstruct_AnimalBase">
 		<defName>ABF_Thing_Synstruct_Chemstruct</defName>
 		<label>chemstruct</label>
-		<description>A highly specialized synstruct drone capable of identifying, seeking, and absorbing biological matter for processing into a synthetic chemical precursor to neutroamine or chemfuel, chemstructs are essential elements among synstruct societies. The process lent itself well to shaping a machine in the form of a small bird, with the product outputted as a self-stored egg-like capsule. The wings are purely cosmetic.\n\nChemstructs rely on the fatty materials of raw meat that they rend down to synthesize into chemical substances, and cannot produce without it. They still depend on energy for their own functionality, though, and so will not shut down if none can be found.</description>
+		<description>A highly specialized synstruct drone capable of processing simple processed food into a synthetic chemical precursor to neutroamine or chemfuel, chemstructs are essential elements among synstruct societies. The process lent itself well to shaping a machine in the form of a large bird, with the product outputted as a self-contained egg-like capsule. The wings are purely cosmetic.\n\nChemstructs rely on proteins that they rend down into chemical substances, and cannot produce without it. They still depend on energy for their own functionality, though, and so will not shut down if no protein is currently available.\n\nWhy chemstructs are designed to resemble chickens instead of another bird - perhaps one more appropriately sized - is not clear.</description>
 		<statBases>
 			<MoveSpeed>4.00</MoveSpeed>
 			<MarketValue>500</MarketValue>
-            <ABF_Stat_Synstruct_MaxEnergy>200</ABF_Stat_Synstruct_MaxEnergy>
-            <ABF_Stat_Synstruct_EnergyConsumption>100</ABF_Stat_Synstruct_EnergyConsumption>
-            <Mass>20</Mass>
+            <ABF_Stat_Synstruct_MaxEnergy>150</ABF_Stat_Synstruct_MaxEnergy>
+            <ABF_Stat_Synstruct_EnergyConsumption>150</ABF_Stat_Synstruct_EnergyConsumption>
+            <Mass>80</Mass>
 		</statBases>
 		<comps>
 			<li Class="ArtificialBeings.CompProperties_ResourceProducerArtificial">
-                <resourceIntervalDays>1.5</resourceIntervalDays>
-                <resourceCount>1</resourceCount>
+                <resourceIntervalDays>1</resourceIntervalDays>
+                <resourceCount>4</resourceCount>
                 <resourceDef>ABF_Thing_Synstruct_ChemicalCapsule</resourceDef>
                 <affectOutputFactorOnEmpty>
                     <li><key>ABF_Need_Synstruct_Protein</key><value>0</value></li>
@@ -36,8 +36,7 @@
 		</tools>
 		<race>
 			<body>ABF_Body_Synstruct_BipedalBiomimetic</body>
-			<baseBodySize>0.3</baseBodySize>
-			<baseHealthScale>0.5</baseHealthScale>
+			<baseBodySize>1.2</baseBodySize>
 			<nameOnTameChance>1</nameOnTameChance>
 			<hediffGiverSets Inherit="False">
 				<li>ABF_HediffGiverSet_Synstruct_TemperatureVulnerable</li>
@@ -68,8 +67,8 @@
                     <li>
                         <key>ABF_Need_Synstruct_Protein</key>
                         <value>
-                            <maximumCapacity>2</maximumCapacity>
-                            <fallRatePerDay>0.3</fallRatePerDay>
+                            <maximumCapacity>1.4</maximumCapacity>
+                            <fallRatePerDay>1</fallRatePerDay>
                             <fallRateIsPercentage>false</fallRateIsPercentage>
                         </value>
                     </li>
@@ -101,7 +100,7 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawns/Animals/Chemstruct/Chemstruct</texPath>
-					<drawSize>0.9</drawSize>
+					<drawSize>1.5</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.3, 0.3)</volume>
 						<offset>(0,0,-0.3)</offset>
@@ -109,7 +108,7 @@
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawns/Animals/Chemstruct/Chemstruct</texPath>
-					<drawSize>0.8</drawSize>
+					<drawSize>1.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
