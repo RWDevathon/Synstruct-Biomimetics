@@ -45,13 +45,14 @@
             <graphicClass>Graphic_StackCount</graphicClass>
             <color>(80,125,80)</color>
         </graphicData>
+        <stackLimit>150</stackLimit>
         <socialPropernessMatters>true</socialPropernessMatters>
         <statBases>
-            <MarketValue>2.6</MarketValue>
+            <MarketValue>2.3</MarketValue>
             <Mass>0.045</Mass>
             <MaxHitPoints>60</MaxHitPoints>
             <Flammability>0.05</Flammability>
-            <Nutrition>0.15</Nutrition>
+            <Nutrition>0.1</Nutrition>
             <FoodPoisonChanceFixedHuman>0</FoodPoisonChanceFixedHuman>
         </statBases>
         <ingestible>
@@ -97,7 +98,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<ABF_Thing_Synstruct_NutrientBlock>20</ABF_Thing_Synstruct_NutrientBlock>
+			<ABF_Thing_Synstruct_NutrientBlock>30</ABF_Thing_Synstruct_NutrientBlock>
 		</products>
 	    <recipeUsers>
             <li>BiofuelRefinery</li>
