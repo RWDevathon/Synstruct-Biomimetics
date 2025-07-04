@@ -20,16 +20,8 @@
                     </groups>
                 </li>
                 <li>
-                    <def>ABF_BodyPart_Synstruct_Generator</def>
-                    <coverage>0.023</coverage>
-                    <depth>Inside</depth>
-                    <groups>
-                        <li>Torso</li>
-                    </groups>
-                </li>
-                <li>
                     <def>ABF_BodyPart_Synstruct_CoolantPump</def>
-                    <coverage>0.023</coverage>
+                    <coverage>0.03</coverage>
                     <depth>Inside</depth>
                     <groups>
                         <li>Torso</li>
@@ -38,7 +30,7 @@
                 <li>
                     <def>ABF_BodyPart_Synstruct_Heatsink</def>
                     <customLabel>left heatsink</customLabel>
-                    <coverage>0.025</coverage>
+                    <coverage>0.03</coverage>
                     <depth>Inside</depth>
                     <groups>
                         <li>Torso</li>
@@ -47,7 +39,7 @@
                 <li>
                     <def>ABF_BodyPart_Synstruct_Heatsink</def>
                     <customLabel>right heatsink</customLabel>
-                    <coverage>0.025</coverage>
+                    <coverage>0.03</coverage>
                     <depth>Inside</depth>
                     <groups>
                         <li>Torso</li>
@@ -55,7 +47,7 @@
                 </li>
                 <li>
                     <def>ABF_BodyPart_Synstruct_Battery</def>
-                    <coverage>0.01</coverage>
+                    <coverage>0.03</coverage>
                     <depth>Inside</depth>
                     <groups>
                         <li>Torso</li>
@@ -63,7 +55,7 @@
                 </li>
                 <li>
                     <def>ABF_BodyPart_Synstruct_Neck</def>
-                    <coverage>0.10</coverage>
+                    <coverage>0.20</coverage>
                     <height>Top</height>
                     <groups>
                         <li>Neck</li>
@@ -71,7 +63,7 @@
                     <parts>
                         <li>
                             <def>ABF_BodyPart_Synstruct_Head</def>
-                            <coverage>0.72</coverage>
+                            <coverage>0.75</coverage>
                             <groups>
                                 <li>UpperHead</li>
                                 <li>FullHead</li>
@@ -139,7 +131,7 @@
                 <li>
                     <def>ABF_BodyPart_Synstruct_Leg</def>
                     <customLabel>forward left leg</customLabel>
-                    <coverage>0.07</coverage>
+                    <coverage>0.1</coverage>
                     <height>Bottom</height>
                     <parts>
                         <li>
@@ -155,7 +147,7 @@
                 <li>
                     <def>ABF_BodyPart_Synstruct_Leg</def>
                     <customLabel>forward right leg</customLabel>
-                    <coverage>0.07</coverage>
+                    <coverage>0.1</coverage>
                     <height>Bottom</height>
                     <parts>
                         <li>
@@ -171,7 +163,7 @@
                 <li>
                     <def>ABF_BodyPart_Synstruct_Leg</def>
                     <customLabel>rear left leg</customLabel>
-                    <coverage>0.07</coverage>
+                    <coverage>0.1</coverage>
                     <height>Bottom</height>
                     <parts>
                         <li>
@@ -184,7 +176,7 @@
                 <li>
                     <def>ABF_BodyPart_Synstruct_Leg</def>
                     <customLabel>rear right leg</customLabel>
-                    <coverage>0.07</coverage>
+                    <coverage>0.1</coverage>
                     <height>Bottom</height>
                     <parts>
                         <li>
