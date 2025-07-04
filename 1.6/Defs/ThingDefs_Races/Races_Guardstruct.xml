@@ -15,6 +15,11 @@
             <CaravanRidingSpeedFactor>1.6</CaravanRidingSpeedFactor>
             <Mass>80</Mass>
 		</statBases>
+        <comps>
+            <li>
+                <compClass>ArtificialBeings.CompDraftableSynstructAnimal</compClass>
+            </li>
+        </comps>
 		<tools>
 			<li>
 				<label>left claw</label>
