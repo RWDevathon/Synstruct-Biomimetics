@@ -5,7 +5,7 @@
         <defName>ABF_Need_Synstruct_Biomaterial</defName>
         <needClass>ArtificialBeings.Need_Artificial</needClass>
         <label>biomaterial</label>
-        <description>Biomaterial is necessary for this creature to remain productive. If it is at zero, the creature will stop producing resources until it is replenished. Generally, replenishing this will require light processing of organic materials to make suitably prepared ingredients.</description>
+        <description>Biomaterial is necessary for this creature to remain productive. If it is at zero, the creature will stop producing resources until it is replenished. Generally, replenishing this will require light processing of organic materials to make a suitable intermediary called vegefodder.</description>
         <listPriority>362</listPriority>
         <fallPerDay>0.5</fallPerDay>
         <showForCaravanMembers>true</showForCaravanMembers>
@@ -20,7 +20,7 @@
         <defName>ABF_Need_Synstruct_Protein</defName>
         <needClass>ArtificialBeings.Need_Artificial</needClass>
         <label>protein</label>
-        <description>Protein is necessary for this creature to remain productive. If it is at zero, the creature will stop producing resources until it is replenished.</description>
+        <description>Protein is necessary for this creature to remain productive. If it is at zero, the creature will stop producing resources until it is replenished. Kibble is a perfect blend of processed proteins and binding plant, and is thus the ideal ingredient for productivity.</description>
         <listPriority>363</listPriority>
         <showForCaravanMembers>true</showForCaravanMembers>
         <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
