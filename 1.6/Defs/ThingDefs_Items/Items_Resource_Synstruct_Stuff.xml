@@ -87,6 +87,7 @@
             <DeteriorationRate>2.0</DeteriorationRate>
         </statBases>
         <intricate>true</intricate>
+        <tradeability>Sellable</tradeability>
         <thingCategories>
             <li>Manufactured</li>
         </thingCategories>

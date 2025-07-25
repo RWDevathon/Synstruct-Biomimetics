@@ -34,6 +34,7 @@
             <li>AnimalProductRaw</li>
         </thingCategories>
         <allowedArchonexusCount>80</allowedArchonexusCount>
+        <tradeability>Sellable</tradeability>
     </ThingDef>
 
     <ThingDef ParentName="OrganicProductBase">
@@ -62,6 +63,7 @@
         <thingCategories>
             <li>AnimalProductRaw</li>
         </thingCategories>
+        <tradeability>Sellable</tradeability>
     </ThingDef>
 
 	<RecipeDef>
@@ -125,6 +127,7 @@
         <allowedArchonexusCount>400</allowedArchonexusCount>
         <resourceReadoutPriority>Last</resourceReadoutPriority>
         <drawGUIOverlay>true</drawGUIOverlay>
+        <tradeability>Sellable</tradeability>
         <graphicData>
             <texPath>Things/Item/Resource/PlantFoodRaw/Hay</texPath>
             <graphicClass>Graphic_StackCount</graphicClass>
