@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef>
+		<defName>ABF_Recipe_Synstruct_MakeChemfuelFromCapsules</defName>
+		<label>synthesize chemfuel from chemical capsules</label>
+		<description>Make a batch of chemfuel by refining the raw resources within chemical capsules.</description>
+		<jobString>Refining chemfuel from capsules.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>2000</workAmount>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ABF_Thing_Synstruct_ChemicalCapsule</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ABF_Thing_Synstruct_ChemicalCapsule</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Chemfuel>72</Chemfuel>
+		</products>
+        <recipeUsers>
+            <li>BiofuelRefinery</li>
+        </recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>ABF_Recipe_Synstruct_MakeNeutroamineFromCapsules</defName>
+		<label>synthesize neutroamine from chemical capsules</label>
+		<description>Make a batch of neutroamine by refining the raw resources within chemical capsules.</description>
+		<jobString>Refining neutroamine from capsules.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>1400</workAmount>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ABF_Thing_Synstruct_ChemicalCapsule</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ABF_Thing_Synstruct_ChemicalCapsule</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Neutroamine>12</Neutroamine>
+		</products>
+	    <recipeUsers>
+            <li>DrugLab</li>
+        </recipeUsers>
+	</RecipeDef>
+
+</Defs>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef>
+		<defName>ABF_Recipe_Synstruct_MakeNutritionBlocksFromSolutions</defName>
+		<label>stabilize nutrient solution with chemical capsules</label>
+		<description>Make a batch of stabilized nutrition blocks by refining nutrient solution with chemical capsules. This is a time-intensive task.</description>
+		<jobString>Stabilizing nutrient solution.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>1200</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ABF_Thing_Synstruct_NutrientSolution</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ABF_Thing_Synstruct_ChemicalCapsule</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ABF_Thing_Synstruct_ChemicalCapsule</li>
+                <li>ABF_Thing_Synstruct_NutrientSolution</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ABF_Thing_Synstruct_NutrientBlock>30</ABF_Thing_Synstruct_NutrientBlock>
+		</products>
+	    <recipeUsers>
+            <li>ElectricStove</li>
+            <li>FueledStove</li>
+            <li>Campfire</li>
+        </recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>ABF_Recipe_Synstruct_MakeVegefodder</defName>
+		<label>make vegefodder</label>
+		<description>Take vegetative matter and prepare fodder for nutristructs from it.</description>
+		<jobString>Making vegefodder.</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>300</workAmount>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+            <li>
+                <filter>
+                    <customSummary>greens</customSummary>
+                    <categories>
+                        <li>PlantFoodRaw</li>
+                    </categories>
+                    <thingDefs>
+                        <li>Hay</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+		</ingredients>
+        <products>
+            <ABF_Thing_Synstruct_Vegefodder>1</ABF_Thing_Synstruct_Vegefodder>
+        </products>
+        <fixedIngredientFilter>
+            <categories>
+                <li>PlantFoodRaw</li>
+            </categories>
+            <thingDefs>
+                <li>Hay</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <workSkill>Cooking</workSkill>
+	    <recipeUsers>
+            <li>ButcherSpot</li>
+            <li>TableButcher</li>
+        </recipeUsers>
+	</RecipeDef>
+
+</Defs>
