@@ -12,6 +12,7 @@
         <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
         <modExtensions>
             <li Class="ArtificialBeings.ABF_ArtificialNeedExtension">
+                <unitsLabel>vegefodder</unitsLabel>
             </li>
         </modExtensions>
     </NeedDef>
