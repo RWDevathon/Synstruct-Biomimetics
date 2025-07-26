@@ -19,8 +19,6 @@
             <Steel>60</Steel>
             <Plasteel>30</Plasteel>
             <Uranium>40</Uranium>
-            <ABF_Thing_Synstruct_CoolantPack>1</ABF_Thing_Synstruct_CoolantPack>
-            <ABF_Thing_Synstruct_LubricantPack>1</ABF_Thing_Synstruct_LubricantPack>
             <ComponentIndustrial>6</ComponentIndustrial>
         </costList>
         <comps>
@@ -68,7 +66,6 @@
         <costList>
             <Steel>200</Steel>
             <Plasteel>40</Plasteel>
-            <ABF_Thing_Synstruct_CoolantPack>1</ABF_Thing_Synstruct_CoolantPack>
             <ComponentIndustrial>16</ComponentIndustrial>
         </costList>
         <comps>
@@ -91,7 +88,6 @@
         </recipeMaker>
         <costList>
             <Steel>200</Steel>
-            <ABF_Thing_Synstruct_CoolantPack>1</ABF_Thing_Synstruct_CoolantPack>
             <ComponentIndustrial>20</ComponentIndustrial>
         </costList>
         <comps>
