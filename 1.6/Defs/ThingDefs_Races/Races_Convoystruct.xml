@@ -14,6 +14,8 @@
             <IncomingDamageFactor>0.75</IncomingDamageFactor>
             <ABF_Stat_Synstruct_MaxEnergy>2000</ABF_Stat_Synstruct_MaxEnergy>
             <ABF_Stat_Synstruct_EnergyConsumption>100</ABF_Stat_Synstruct_EnergyConsumption>
+			<ComfyTemperatureMin>-40</ComfyTemperatureMin>
+			<ComfyTemperatureMax>100</ComfyTemperatureMax>
 		</statBases>
 		<tools>
 			<li>
