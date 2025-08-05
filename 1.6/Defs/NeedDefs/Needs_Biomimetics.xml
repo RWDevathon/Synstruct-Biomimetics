@@ -21,7 +21,7 @@
         <defName>ABF_Need_Synstruct_Protein</defName>
         <needClass>ArtificialBeings.Need_Artificial</needClass>
         <label>protein</label>
-        <description>Protein is necessary for this creature to remain productive. If it is at zero, the creature will stop producing resources until it is replenished. Kibble is a perfect blend of processed proteins and binding plant, and is thus the ideal ingredient for productivity.</description>
+        <description>Protein is necessary for this creature to remain productive. If it is at zero, the creature may stop producing resources until it is replenished. Kibble is a perfect blend of processed proteins and binding plant, and is thus the ideal ingredient for productivity.</description>
         <listPriority>363</listPriority>
         <showForCaravanMembers>true</showForCaravanMembers>
         <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
@@ -36,7 +36,7 @@
         <defName>ABF_Need_Synstruct_Stone</defName>
         <needClass>ArtificialBeings.Need_Artificial</needClass>
         <label>stone</label>
-        <description>Stone, either in chunks or bricks, is necessary for this creature to remain optimally productive. If it is at zero, the creature will produce resources half as quickly until it is replenished. Chunks retain far more trace minerals than bricks, and are thus more efficient. Steel or mechanoid slag can also be consumed, which will generate approximately as much steel as they would if smelted normally.</description>
+        <description>Stone chunks are necessary for this creature to remain optimally productive. If it is at zero, the creature may stop producing resources until it is replenished. Bricks have had the trace minerals processed away, and thus cannot be used.</description>
         <listPriority>364</listPriority>
         <showForCaravanMembers>true</showForCaravanMembers>
         <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>

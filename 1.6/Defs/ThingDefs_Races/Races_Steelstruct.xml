@@ -3,8 +3,8 @@
 
     <ThingDef ParentName="ABF_Thing_Synstruct_AnimalBase">
         <defName>ABF_Thing_Synstruct_Steelstruct</defName>
-        <label>steelstruct</label>
-        <description>These drones are ubiquitous in synstruct societies thanks to their internal, optimized smelters. Steelstructs are capable of extracting valuable minerals from the trace, low quality amounts to be found in stone and refining it into standard grade steel. Specialized filters allow them to ambiently capture minerals from the environment - through the air, random bits of trash, chunks of earth, or whatever happens to be nearby that won't be missed - which allows them to maintain production even when sizeable chunks or piles of stone brick cannot be acquired, albeit at a steep loss in production rate. If given access to steel slag, they can smelt it down at the same level of efficiency, effectively acting as mobile refineries. These qualities make them incredibly stable, consistent sources of steel that can be relied on. It is no wonder, then, that so-called "pastoralist" societies of synstructs exist that "herd" vast numbers of these units from system to system, ravaging worlds in harvests of metal - many worlds have gone lifeless after these societies pillage and leave nothing in return.\n\nA steelstruct can process roughly one stone chunk per day, or steel slag every two days.</description>
+        <label>threadstruct</label>
+        <description>These drones are nigh ubiquitous in synstruct societies thanks to their internal fabric machinery. Threadstructs are capable of extracting valuable minerals from the trace quantities in stone chunks to be fused with biological matter processed from kibble and refining it into synthread. Specialized filters allow them to ambiently capture minerals from the environment - through the air, random bits of trash, chunks of earth, or whatever happens to be nearby that won't be missed - which allows them to maintain production even when sizeable chunks cannot be acquired, albeit at a steep loss in production rate. Kibble, however, is a key component of the process which cannot be skipped, as the organic matter is essential for the refining process.\n\nSo-called "pastoralist" societies of synstructs exist that "herd" vast numbers of these units from system to system, ravaging fertile worlds in search of easily accessible nutrients and rare metals. Many worlds have become lifeless husks after these societies pillage and leave nothing in return.</description>
         <statBases>
             <MoveSpeed>2.00</MoveSpeed>
             <MarketValue>600</MarketValue>
@@ -24,11 +24,12 @@
         </tools>
         <comps>
 			<li Class="ArtificialBeings.CompProperties_ResourceProducerArtificial">
-                <resourceIntervalDays>10</resourceIntervalDays>
-                <resourceCount>150</resourceCount>
-                <resourceDef>Steel</resourceDef>
+                <resourceIntervalDays>5</resourceIntervalDays>
+                <resourceCount>25</resourceCount>
+                <resourceDef>Synthread</resourceDef>
                 <affectOutputFactorOnEmpty>
-                    <li><key>ABF_Need_Synstruct_Stone</key><value>0.5</value></li>
+                    <li><key>ABF_Need_Synstruct_Stone</key><value>0.4</value></li>
+                    <li><key>ABF_Need_Synstruct_Protein</key><value>0</value></li>
                     <li><key>ABF_Need_Synstruct_Energy</key><value>0</value></li>
                     <li><key>ABF_Need_Synstruct_Components</key><value>0.6</value></li>
                 </affectOutputFactorOnEmpty>
@@ -86,10 +87,18 @@
                         </value>
                     </li>
                     <li>
+                        <key>ABF_Need_Synstruct_Protein</key>
+                        <value>
+                            <maximumCapacity>1</maximumCapacity>
+                            <fallRatePerDay>0.25</fallRatePerDay>
+                            <fallRateIsPercentage>false</fallRateIsPercentage>
+                        </value>
+                    </li>
+                    <li>
                         <key>ABF_Need_Synstruct_Stone</key>
                         <value>
                             <maximumCapacity>4</maximumCapacity>
-                            <fallRatePerDay>0.25</fallRatePerDay>
+                            <fallRatePerDay>1</fallRatePerDay>
                             <fallRateIsPercentage>false</fallRateIsPercentage>
                         </value>
                     </li>
@@ -113,7 +122,7 @@
 
     <PawnKindDef ParentName="ABF_PawnKind_Synstruct_AnimalBase">
         <defName>ABF_PawnKind_Synstruct_Steelstruct_Newboot</defName>
-        <label>steelstruct</label>
+        <label>threadstruct</label>
         <race>ABF_Thing_Synstruct_Steelstruct</race>
         <combatPower>20</combatPower>
         <canArriveManhunter>false</canArriveManhunter>

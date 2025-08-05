@@ -53,8 +53,8 @@
     </ThingDef>
 
     <ThingDef ParentName="ABF_Thing_Synstruct_Generator_MakeableBase">
-        <defName>ABF_Thing_Synstruct_SteelstructGenerator</defName>
-        <label>steelstruct</label>
+        <defName>ABF_Thing_Synstruct_ThreadstructGenerator</defName>
+        <label>threadstruct</label>
         <description>An uninitialized mechanical sheep-analogue designed for producing steel. This unit necessitates organic matter consumption, and can not charge.</description>
         <graphicData>
             <texPath>Things/Pawns/Animals/Steelstruct/Steelstruct_east</texPath>
